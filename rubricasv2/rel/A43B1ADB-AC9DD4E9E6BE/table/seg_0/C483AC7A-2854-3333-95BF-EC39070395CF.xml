@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C483AC7A-2854-3333-95BF-EC39070395CF" name="NIVELES_COMPETENCIA">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>491AF78F-5F58-53C8-E225-F9D8EE40AC01</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_LOGRO_COMPETENCIAS" id="7BC4B15E-39E9-B004-356E-245D5391D08E">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>83D32A76-E870-DDC5-08CA-1F31CD10A872</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="48F4F68C-DC29-944E-770C-E6B897D84989">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>BA94DC76-AEE5-E4F7-A102-6EB8C7976B74</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NIVEL_LOGRO_ID_NIVEL_LOGRO" id="A1AD84AE-6A9B-4665-EB2A-25D7574930D5">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>3EBA997C-B6DA-54E1-79AF-E43512BD1062</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="94F3DD7D-E23A-6815-3907-1AF5F2FA69DE" referredColumn="390E964C-3180-29BB-BFCB-D79237C15D57"/>
+</associations>
+</Column>
+<Column name="COMPETENCIAS_ID_COMPETENCIAS" id="4604B15E-0F54-16A3-C77F-9B9D2F2BD5A7">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>B12AA50C-FC7B-D33D-C7E8-19AE026D319A</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF5C3D60-6EED-8BD4-4229-80655445BF53" referredColumn="92BE672B-5514-A537-2F07-A524112E9104"/>
+</associations>
+</Column>
+<Column name="ESTADO" id="E7AAFDF5-B61E-3B8C-195A-878E474A535C">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>64AAED91-A51C-F487-F043-2FFA3BF39230</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="01453A2B-5EEA-5097-55D3-A3723F1F9048" name="NIVELES_COMPETENCIA_PK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>3A246F04-1413-C833-D896-DB4938B44E44</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BC4B15E-39E9-B004-356E-245D5391D08E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D6E874B-45A0-CA26-FA9C-744D49C6AB8B" name="NIVELES_COMPETENCIA_COMPETENCIAS_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>1F2A4381-4B32-25A8-A29A-EAC0B614EA1B</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4604B15E-0F54-16A3-C77F-9B9D2F2BD5A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="572797C8-BE39-30D0-61A5-4E01485120A5" name="NIVELES_COMPETENCIA_NIVEL_LOGRO_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>AC9AD84C-71AE-8026-BE52-79F5AA06983F</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1AD84AE-6A9B-4665-EB2A-25D7574930D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

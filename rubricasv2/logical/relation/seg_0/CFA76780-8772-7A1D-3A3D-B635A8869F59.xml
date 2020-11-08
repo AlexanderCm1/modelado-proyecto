@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="AVANCE_PY_PROYECTO_INTEGRADOR_FK" directorySegmentName="seg_0" id="CFA76780-8772-7A1D-3A3D-B635A8869F59">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>921982A0-0893-E73B-BD41-153661C71DC4</importedID>
+<engineerTo>
+<item key="936D624F-3E2B-63FF-92E4-371B21C0BEB8" value="true"/>
+<item key="A43B1ADB-FC1E-76BB-4908-AC9DD4E9E6BE" value="true"/>
+</engineerTo>
+<sourcePk>2CCB4BB0-2B2C-6124-A579-2BEE472D4E2E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>324FD936-BEC2-1891-8341-96E8D4349B70</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7B8F9C81-A89C-491A-AC59-5950932B9A76</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

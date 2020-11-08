@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8BEB66E1-EDF0-C00C-9BD3-D766491D6CC7" name="PREGUNTAS">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>DE448556-2778-B7A3-C877-5988CCC748D2</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="A638FF19-FB0D-37A8-C22C-5CA8BC1A2DEE">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>689D7A59-1E08-3F29-C4B9-70D9AB53F338</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PESO" id="83E3EB14-2575-3B7D-40F1-1EBC0DC33FE3">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>C776855F-E9F3-2098-EA90-714099857F7C</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PREGUNTAS_ID" id="A7397E61-7CB7-9AFD-2138-86ED0B057647">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="INSTRUMENTO_INSTRUMENTO_ID" id="86D500A2-2347-F15D-BC89-F410D6415621">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B90D5A71-AC43-1C5B-6876-8722E7C93941" referredColumn="C9783978-3836-ED48-95C1-2986ED5642BD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="310C3C4B-A4E6-C5DF-7577-373A7D6F729D" name="PREGUNTAS_PK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="A7397E61-7CB7-9AFD-2138-86ED0B057647"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6117E659-A1BD-0598-1BBB-F3D2228F4E58" name="PREGUNTAS_INSTRUMENTO_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>D7CD9285-F9AF-80EE-AA5E-0539D545809C</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86D500A2-2347-F15D-BC89-F410D6415621"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

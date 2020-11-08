@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="14672412-5766-EA42-975B-1D23F4C8804D" name="ALTERNATIVAS_ESTUDIANTE">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>A221676A-EF2F-170C-3651-7A1B1D08C548</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ESTUDIANTE_PERSONA_ID_PERSONA" id="34720E1E-897E-C11F-FDAF-3FE96E928ECF">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>C511039A-659A-ED11-34A7-0B1C21251377</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BBF8D4A3-F541-16E8-DBF5-96F8F9AB1ADE" referredColumn="65F110ED-E453-DD3E-04B9-C8760BB0B478"/>
+</associations>
+</Column>
+<Column name="ID" id="E6EE2E98-E9BD-8BCF-D82C-6977D29F621E">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>0B6975B1-E016-9048-B023-C92E84E84FFC</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Attribute_143" id="773412D4-198A-4921-39C4-B601211A8338">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>BBC69131-0C4C-83BD-ECA1-BEFFB053BD8E</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALTERNATIVA_ALTERNATIVA_ID" id="57E2AE19-F3A4-C888-A5CB-51A1633D9AD1">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13F5C81E-86EA-FF98-DD48-6A626F6ED71B" referredColumn="535D5C14-F74B-E9B3-ECA6-65748A8A617B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="736F20B9-D3E9-3385-29F5-61737D6CAF1C" name="ALTERNATIVAS_ESTUDIANTE_ESTUDIANTE_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>91E1BE96-12B8-C189-3C48-9CB069AD7223</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34720E1E-897E-C11F-FDAF-3FE96E928ECF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3CBCC8BE-1BB6-4797-8991-F68D17D1F505" name="ALTERNATIVAS_ESTUDIANTE_ALTERNATIVA_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>2B3F1383-6E65-683A-4D2D-CD443C33B360</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57E2AE19-F3A4-C888-A5CB-51A1633D9AD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

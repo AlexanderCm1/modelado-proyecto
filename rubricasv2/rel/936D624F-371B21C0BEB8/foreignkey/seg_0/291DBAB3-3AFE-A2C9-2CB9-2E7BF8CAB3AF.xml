@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="291DBAB3-3AFE-A2C9-2CB9-2E7BF8CAB3AF" containerWithKeyObject="E70E023C-9E21-425C-3FF4-6CB49724F71B" localFKIndex="FC583090-4986-AED6-6FDD-D54B34698DB0" name="UNIDAD_ACADEMICA_UNIDAD_ACADEMICA_FK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>UNIDAD_ACADEMICA_UNIDAD_ACADEMICA_FK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>28D06692-0DA0-6B87-83D8-0817BD400F6A</importedID>
+<referredTableLongName>SGRU.UNIDAD_ACADEMICA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E70E023C-9E21-425C-3FF4-6CB49724F71B</referredTableID>
+<keyObject>37787A7C-F2FF-B4A9-D2F0-A785BF633128</keyObject>
+<referredKeyID>37787A7C-F2FF-B4A9-D2F0-A785BF633128</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_UNIDAD_ACADEMICA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

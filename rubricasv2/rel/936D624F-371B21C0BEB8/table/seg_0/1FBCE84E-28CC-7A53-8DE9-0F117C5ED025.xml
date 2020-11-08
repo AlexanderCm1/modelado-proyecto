@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1FBCE84E-28CC-7A53-8DE9-0F117C5ED025" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="CICLO">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>CICLO</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>CA240941-3E6B-49D1-D662-C045596258EE</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CICLO" id="C8D97DE6-144F-5E66-21F3-BB95C08A54C9">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>CICLO</sourceObjSchema>
+<sourceObjName>ID_CICLO</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>E73C6E35-A583-96E2-E96C-22D650504467</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="5CA93E68-8037-15C8-21C9-C6B63FF3CAED">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>CICLO</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>9909A765-0C83-4690-69A1-F74876BF69FD</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 BYTE</dataTypeSize>
+<ownDataTypeParameters>45 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="04B82A00-92F6-8CA8-28AB-DD2EBE2E77DB">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>6289DE2E-531B-6BB8-9BF0-231FA0C7337F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9990E5E-4C63-2E4F-39DD-369B52688178" name="CICLO_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>CICLO_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>08675418-A316-3337-2A7D-96565F95D6F8</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8D97DE6-144F-5E66-21F3-BB95C08A54C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3BE8526-490B-4C39-4998-96F7C819F64A" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="CICLO_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>CICLO_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>895EFF45-6D9A-D2AE-C6D2-DC2008E3A39B</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8D97DE6-144F-5E66-21F3-BB95C08A54C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

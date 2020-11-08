@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A221676A-EF2F-170C-3651-7A1B1D08C548" name="ALTERNATIVAS_ESTUDIANTE">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 20:38:19 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<engineerTo>
+<item key="936D624F-3E2B-63FF-92E4-371B21C0BEB8" value="true"/>
+<item key="A43B1ADB-FC1E-76BB-4908-AC9DD4E9E6BE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID PERSONA" id="C511039A-659A-ED11-34A7-0B1C21251377">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 20:49:10 UTC</createdTime>
+<generatorID>91E1BE96-12B8-C189-3C48-9CB069AD7223</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<engineerTo>
+<item key="936D624F-3E2B-63FF-92E4-371B21C0BEB8" value="true"/>
+<item key="A43B1ADB-FC1E-76BB-4908-AC9DD4E9E6BE" value="true"/>
+</engineerTo>
+<referedAttribute>F0CCA279-0C38-E9F7-8FEF-FA5438FA876A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="0B6975B1-E016-9048-B023-C92E84E84FFC">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 20:49:30 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<engineerTo>
+<item key="936D624F-3E2B-63FF-92E4-371B21C0BEB8" value="true"/>
+<item key="A43B1ADB-FC1E-76BB-4908-AC9DD4E9E6BE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Attribute_143" id="BBC69131-0C4C-83BD-ECA1-BEFFB053BD8E">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 20:49:59 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<engineerTo>
+<item key="936D624F-3E2B-63FF-92E4-371B21C0BEB8" value="true"/>
+<item key="A43B1ADB-FC1E-76BB-4908-AC9DD4E9E6BE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

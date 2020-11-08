@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="281326E8-D2C0-5D70-5818-41D2E7FBF956" name="ESTUDIANTE">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>1E3084EE-FD50-C76F-809C-7635D68B1443</importedID>
+<engineerTo>
+<item key="936D624F-3E2B-63FF-92E4-371B21C0BEB8" value="true"/>
+<item key="A43B1ADB-FC1E-76BB-4908-AC9DD4E9E6BE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID PERSONA" id="F0CCA279-0C38-E9F7-8FEF-FA5438FA876A">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<generatorID>7E39E533-4493-8A90-0994-A109969B9CCB</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>A6C5840B-D9F6-4E9C-72AD-0274B248413A</importedID>
+<engineerTo>
+<item key="936D624F-3E2B-63FF-92E4-371B21C0BEB8" value="true"/>
+<item key="A43B1ADB-FC1E-76BB-4908-AC9DD4E9E6BE" value="true"/>
+</engineerTo>
+<referedAttribute>11752CF3-E952-3984-0C49-B3F0D89B9575</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO ESTUDIANTE" id="8F0D68AA-ED92-D1E7-5C35-99E8C7A76CD4">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>EC8645B7-C1C6-1141-1CD1-73A7E92EE58E</importedID>
+<engineerTo>
+<item key="936D624F-3E2B-63FF-92E4-371B21C0BEB8" value="true"/>
+<item key="A43B1ADB-FC1E-76BB-4908-AC9DD4E9E6BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO" id="B540491C-C4E5-7A1F-E67A-5F22F42BC3DE">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>E3F2DB7A-8E2A-59BC-77AC-4EB087A10812</importedID>
+<engineerTo>
+<item key="936D624F-3E2B-63FF-92E4-371B21C0BEB8" value="true"/>
+<item key="A43B1ADB-FC1E-76BB-4908-AC9DD4E9E6BE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID PLAN" id="B64872A5-9FA9-13CB-1520-7B4CBCFBDC77">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 04:32:32 UTC</createdTime>
+<generatorID>1B5207A0-8ECC-C02A-23AB-C64150AEFCDD</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<engineerTo>
+<item key="936D624F-3E2B-63FF-92E4-371B21C0BEB8" value="true"/>
+<item key="A43B1ADB-FC1E-76BB-4908-AC9DD4E9E6BE" value="true"/>
+</engineerTo>
+<referedAttribute>6092BC4C-99EF-C023-76E3-CBE74C16BA7D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F81BCD14-B852-8169-5FA0-8F42C3D811B2" name="ESTUDIANTE PK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>5AD070B1-6AB4-4A12-28D8-D0A242E236FD</importedID>
+<engineerTo>
+<item key="936D624F-3E2B-63FF-92E4-371B21C0BEB8" value="true"/>
+<item key="A43B1ADB-FC1E-76BB-4908-AC9DD4E9E6BE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F0CCA279-0C38-E9F7-8FEF-FA5438FA876A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

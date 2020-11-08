@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="AVANCE_PY_CRONOGRAMA_FK" directorySegmentName="seg_0" id="E8C7208D-BAFD-3D8F-047F-FB75E9DA5856">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>BD6413AC-41AF-BF7F-65F5-2C8BD213AF3E</importedID>
+<engineerTo>
+<item key="936D624F-3E2B-63FF-92E4-371B21C0BEB8" value="true"/>
+<item key="A43B1ADB-FC1E-76BB-4908-AC9DD4E9E6BE" value="true"/>
+</engineerTo>
+<sourcePk>F5379ECA-C5B7-7CD6-9030-D6F3AB6AD7C8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A2F16C86-F3E9-BC8F-C9C4-29060BCA899E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7B8F9C81-A89C-491A-AC59-5950932B9A76</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

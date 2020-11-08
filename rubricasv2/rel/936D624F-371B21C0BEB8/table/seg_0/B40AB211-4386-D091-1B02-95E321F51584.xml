@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B40AB211-4386-D091-1B02-95E321F51584" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="PLAN_CICLO_CURSO">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>PLAN_CICLO_CURSO</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[Es una tabla union entre tablas plan ciclo y curso ya que es necesario que siempre exista una conexion entre las tablas para la identificacion]]></commentInRDBMS>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>1C2E9253-D20D-2008-23A0-6EFAEB942F2B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PLAN_CICLO_CURSO" id="476180D6-8715-2AB7-FBA0-1F7483B88A1B">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>PLAN_CICLO_CURSO</sourceObjSchema>
+<sourceObjName>ID_PLAN_CICLO_CURSO</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>DD2F9C4B-E29F-4212-9C9B-D5A808693805</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PLAN" id="7938C5EA-11BD-6981-8265-8C2C0EE380C6">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>PLAN_CICLO_CURSO</sourceObjSchema>
+<sourceObjName>PLAN_ID_PLAN</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>6AE1BA59-8002-0B35-0704-1C868016CCE4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44DB9725-A527-0BB3-3A1D-42219A5D15E4" referredColumn="BC161506-9723-F6A5-8F64-6ABCB18169DE"/>
+</associations>
+</Column>
+<Column name="ID_CICLO" id="E92B4EFA-293B-E299-9FD4-CA315973EECD">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>PLAN_CICLO_CURSO</sourceObjSchema>
+<sourceObjName>CICLO_ID_CICLO</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>C9773014-1E80-75FD-9181-01111C52E9D9</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8AAF0BD-1E70-C9CF-9217-BF68F99354FB" referredColumn="C8D97DE6-144F-5E66-21F3-BB95C08A54C9"/>
+</associations>
+</Column>
+<Column name="ID_CURSO" id="26C93C3F-FABB-DE27-AFC3-33CC8CF5706B">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>PLAN_CICLO_CURSO</sourceObjSchema>
+<sourceObjName>CURSO_ID_CURSO</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>94ECD53B-DE3E-330D-D140-B91DD6385488</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8BE33B12-35B7-E257-F054-68080EBFDB2A" referredColumn="6E091A85-77D6-AD8B-2278-0C326951D37E"/>
+</associations>
+</Column>
+<Column name="ESTADO" id="EF36C5A6-7378-29EC-5C4D-D97383C92E4A">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>93C74511-3B7D-D5BE-998A-B91526F31593</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D3335C30-F83D-EDB4-2224-67A39F64AED7" name="PLAN_CICLO_CURSO_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>PLAN_CICLO_CURSO_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>440357B0-1414-E7C1-4E82-57F9AC195857</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="476180D6-8715-2AB7-FBA0-1F7483B88A1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E2FDC8A-1927-E53A-8354-B60A339EDFB4" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="PLAN_CICLO_CURSO_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>PLAN_CICLO_CURSO_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>D8708531-C7F6-C3A8-2889-AE422B1BB085</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="476180D6-8715-2AB7-FBA0-1F7483B88A1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC4C21F1-27EA-F6B7-8D4E-F44A3E2AC6C2" name="PLAN_CICLO_CURSO_CURSO_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26C93C3F-FABB-DE27-AFC3-33CC8CF5706B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B288732-9813-C0B6-E2E9-E27EF3AD729F" name="PLAN_CICLO_CURSO_CICLO_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E92B4EFA-293B-E299-9FD4-CA315973EECD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6692966D-15F9-9E7B-DE13-C9B5B3CC7F95" name="PLAN_CICLO_CURSO_PLAN_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7938C5EA-11BD-6981-8265-8C2C0EE380C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

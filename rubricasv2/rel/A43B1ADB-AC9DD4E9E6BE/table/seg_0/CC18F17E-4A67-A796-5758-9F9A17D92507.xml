@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CC18F17E-4A67-A796-5758-9F9A17D92507" name="NIVEL_CURSO">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>0756964E-AA87-41B2-0CD9-295294137C83</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NIVEL_LOGRO_ID_NIVEL_LOGRO" id="A17CCDAE-5E9C-6EBC-C618-D54DBEDB3207">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>C5EB8B1A-30C8-B81E-831E-9A3541F1676E</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3CA58CBF-3D74-25C9-6B45-2A95FCD36C04" referredColumn="390E964C-3180-29BB-BFCB-D79237C15D57"/>
+</associations>
+</Column>
+<Column name="PLAN_CURSOS_ID_PLAN_CURSOS" id="74313AFF-90BA-942D-9EF4-75515D4DE35A">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>F03A49A0-EDFF-FBAF-13A1-1BACD7139436</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="334AC96E-8183-3122-1216-0E96E26F354B" referredColumn="AFBCA99A-7673-5E1D-7D19-0E898274BA22"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AFE3DE3E-CA95-3337-6B55-6CE5DA3EA2E0" name="NIVEL_CURSO_NIVEL_LOGRO_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>F007A58B-6716-3837-E005-81CAC4B73186</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A17CCDAE-5E9C-6EBC-C618-D54DBEDB3207"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="767DC302-BF76-A30A-5609-36BC62389CCC" name="NIVEL_CURSO_PLAN_CURSOS_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>6E62A3D3-10CB-617D-160E-6B28B40E9E63</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74313AFF-90BA-942D-9EF4-75515D4DE35A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

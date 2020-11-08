@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E14D80A6-AC1D-5F6A-C87C-9A36187C2200" containerWithKeyObject="A651D974-80E8-41EF-752B-3B2817D0F9B6" localFKIndex="CABA2596-DE01-EEB7-ABFF-493220910EA7" name="CARGA_ACADEMICA_Semestre_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>92F56689-8448-D8CD-7816-61FDD5E0D9EE</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<referredTableLongName>Semestre</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>526C0CAB-F47D-87E9-212C-40C466E92809</referredTableID>
+<keyObject>35ED9581-8011-9439-08A4-9C0E49D24AAC</keyObject>
+<referredKeyID>35ED9581-8011-9439-08A4-9C0E49D24AAC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_SEMESTRE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="38B5A46A-AEEF-D500-D0B2-FB01B458F936" containerWithKeyObject="14C3051F-2CF7-5EED-D120-96243AF61910" localFKIndex="FA8B3E38-F075-AE95-0C48-57E9F9DCC9D2" name="SGRU.EXPERTO_EXTERNO_PERSONA_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>2FB2C2FE-9BB7-3310-97B9-A263EBD0366A</importedID>
+<referredTableLongName>SGRU.PERSONA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>84151610-43E1-D855-56DF-41B70C27EC77</referredTableID>
+<keyObject>572094CE-0B4F-23D3-616D-E30AFC0B937B</keyObject>
+<referredKeyID>572094CE-0B4F-23D3-616D-E30AFC0B937B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_PERSONA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C65176F6-8161-A6F6-98D0-10174D3866C3" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="AVANCE_PY">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>AVANCE_PY</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>DF36574C-0E84-96C2-E3C1-33FBDAF33916</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_AVANCE_PY" id="12C724E9-DB02-1B03-D91C-19276B7A8F91">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>AVANCE_PY</sourceObjSchema>
+<sourceObjName>ID_AVANCE_PY</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>71839700-0AD7-AC18-6D7B-B1CC0CC8BEBC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CRONOGRAMA" id="F35D665E-25D7-7A32-71C0-0F370CB1547C">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>AVANCE_PY</sourceObjSchema>
+<sourceObjName>ID_CRONOGRAMA</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>3317CA47-9F03-C344-B3AE-AE2596E20490</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D5FF153-F582-8C81-6E0D-769499321911" referredColumn="06223D75-415E-4503-6239-928CF8527FE2"/>
+</associations>
+</Column>
+<Column name="ID_PROYECTO" id="96055D29-67B1-5E5E-4D04-A4449F0C14C4">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>AVANCE_PY</sourceObjSchema>
+<sourceObjName>ID_PROYECTO</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>477DA171-2340-5009-3129-ACBD4592A350</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7E38B0F-F0AD-732C-7445-02B9C5DBAF4C" referredColumn="12E1A8EE-0B2C-7E83-0100-47276EE84E9F"/>
+</associations>
+</Column>
+<Column name="ESTADO" id="076763A6-68CD-2701-446F-58420ECE8766">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>2225776A-0BFD-8030-B98F-32DA1D6492CC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="35BDE4CD-CFDB-48A5-41F1-A95EDAE670FE" name="AVANCE_PY_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>AVANCE_PY_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>290AA675-F29C-E35B-A06F-55BDC670512E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12C724E9-DB02-1B03-D91C-19276B7A8F91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23A62C70-CF4B-AC6B-F1C8-E0CFA6269749" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="AVANCE_PY_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>AVANCE_PY_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>5E2EB35B-839B-0D14-86C3-1A9E46AFDB07</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12C724E9-DB02-1B03-D91C-19276B7A8F91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08500DFA-2703-3B7B-3D21-3104EF6E956C" name="AVANCE_PY_CRONOGRAMA_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F35D665E-25D7-7A32-71C0-0F370CB1547C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="528F4E8A-5C96-EBB1-6157-E5124F099653" name="AVANCE_PY_PROYECTO_INTEGRADOR_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96055D29-67B1-5E5E-4D04-A4449F0C14C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

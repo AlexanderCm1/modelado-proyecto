@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5D3A7DCB-27C6-7E69-70BB-3BCD877124EE" name="DOCENTE_EVALUADOR">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>FA2163A9-987D-0FBD-C13E-A657FE475CF3</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PERSONA_ID_PERSONA" id="302FBFDE-13BE-79C2-1A22-103E7DC9D6CB">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>1B1614E1-55CD-C525-099A-221139B8E8C8</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7B2D4D1-62AC-FECF-5297-0092A84FA120" referredColumn="D0C27D35-5422-FD0C-CF24-693F51D89BBF"/>
+</associations>
+</Column>
+<Column name="ESTADO" id="778C608E-ABAF-1396-6F9C-21D4AC4E02F9">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>CF5733AD-90C2-E2F3-F196-6920D192CAD3</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LINEAS_PA_ID_LINEA_PA" id="C95521B7-DE29-C73D-DD03-A6C8C162FEB4">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>7C6E0F69-6EB8-08E8-6AF3-28DAFFC6C27E</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="96B9DB27-E623-52BE-3790-A970F5ED8B4F" referredColumn="E88E90E0-69D1-2E83-DC95-3B418916E47E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7D8A8F7-AF62-9C86-99F1-EC9D8C95E0BE" name="DOCENTE_EVALUADOR_PK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>6444E42E-2E71-5E41-BFFE-A39E06118EBF</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="302FBFDE-13BE-79C2-1A22-103E7DC9D6CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D021989E-6A68-2F3D-BB3D-589241383C68" name="DOCENTE_EVALUADOR_PERSONA_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>4EAE9B34-0826-66BF-2F25-FCB2DC8C1B20</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="302FBFDE-13BE-79C2-1A22-103E7DC9D6CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC62EB56-355D-0950-CF4A-A5B4B737B6AE" name="DOCENTE_EVALUADOR_LINEAS_PA_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>1A656DFC-131C-853A-58D7-FDD5A193C6DF</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C95521B7-DE29-C73D-DD03-A6C8C162FEB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

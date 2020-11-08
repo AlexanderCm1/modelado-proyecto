@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3ABD90EA-AF9A-7D35-3E34-46308DAFF971" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="EVALUADOR">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>EVALUADOR</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>BB5EFB6F-E1A4-1FAB-5228-F1111225BF1F</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_EVALUADOR" id="8EC4A2A8-A84D-4483-2C5A-C553C1DCC05A">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>EVALUADOR</sourceObjSchema>
+<sourceObjName>ID_EVALUADOR</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>90A3E1E1-922A-B37C-205D-C5888E19ECCA</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_TIPO_EVALUADOR" id="7481AC86-ADBF-BF84-25FE-97179BAF984D">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>EVALUADOR</sourceObjSchema>
+<sourceObjName>ID_TIPO_EVALUADOR</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>04B07EC8-CB8B-E58A-647F-B220303735F2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12439098-15F0-34C8-842E-5232E80009A1" referredColumn="11D2B929-F6AE-677B-A86B-75B84E2670C0"/>
+</associations>
+</Column>
+<Column name="ESTADO" id="B71C68CE-87E7-C2DF-A6D4-5CCDD355DB9B">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>446B0051-4343-F85C-3223-4B9D0D6191E8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5AF38A99-86F2-21C7-D7BA-DA77DF83EC21" name="EVALUADORES_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>EVALUADORES_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>F7DBD208-AF8C-E224-8F49-A2AC13D3E1B2</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EC4A2A8-A84D-4483-2C5A-C553C1DCC05A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF24D45C-B657-2E35-F42E-CF58483D73E0" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="EVALUADORES_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>EVALUADORES_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>65C367E9-8687-9B9A-9455-D81AA0EDE50C</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EC4A2A8-A84D-4483-2C5A-C553C1DCC05A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ECDDD70D-28C6-399C-BB3E-AC88BD23537A" name="EVALUADOR_TIPO_EVALUADOR_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7481AC86-ADBF-BF84-25FE-97179BAF984D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="24F9BF6C-BEA8-2BEA-6467-8362ACD43910" name="SISTEMA_NUMERICO">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 19:38:49 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<engineerTo>
+<item key="936D624F-3E2B-63FF-92E4-371B21C0BEB8" value="true"/>
+<item key="A43B1ADB-FC1E-76BB-4908-AC9DD4E9E6BE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NOMBRE" id="226D73F4-2AD2-17DD-5189-E244807C6161">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 19:39:35 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<engineerTo>
+<item key="936D624F-3E2B-63FF-92E4-371B21C0BEB8" value="true"/>
+<item key="A43B1ADB-FC1E-76BB-4908-AC9DD4E9E6BE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="C221EE48-4528-EE17-4122-3198D81C4748">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 19:42:55 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<engineerTo>
+<item key="936D624F-3E2B-63FF-92E4-371B21C0BEB8" value="true"/>
+<item key="A43B1ADB-FC1E-76BB-4908-AC9DD4E9E6BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9A52A0DE-C62C-08AA-6987-CED43A4FFEB9" name="SISTEMA_NUMERICO PK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 19:43:00 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<engineerTo>
+<item key="936D624F-3E2B-63FF-92E4-371B21C0BEB8" value="true"/>
+<item key="A43B1ADB-FC1E-76BB-4908-AC9DD4E9E6BE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C221EE48-4528-EE17-4122-3198D81C4748</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

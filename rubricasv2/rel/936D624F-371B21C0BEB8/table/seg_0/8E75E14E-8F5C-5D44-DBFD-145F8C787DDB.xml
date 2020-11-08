@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8E75E14E-8F5C-5D44-DBFD-145F8C787DDB" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="TIPO_DOC">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>TIPO_DOC</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>1316AA77-71A4-BB34-E610-E07E4E3553F8</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TIPO_DOC" id="1F2C51F0-468C-D6A1-1708-17E143A0C85F">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>TIPO_DOC</sourceObjSchema>
+<sourceObjName>ID_TIPO_DOC</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>9BEC1107-BB16-3D57-4196-10D80697A970</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="4EB79DC4-FDAD-F866-16FF-33CA54CAB2B2">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>TIPO_DOC</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>2D444C05-5099-88F8-86C7-8FB83C360AD9</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 BYTE</dataTypeSize>
+<ownDataTypeParameters>45 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="70803E87-45F7-C945-0CF2-E55E57A7D138">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>F43A6E24-031E-73ED-D462-B1A22ED299A6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F8100FA6-3D45-4F42-3C1C-BEF71A922713" name="TIPO_DOC_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>TIPO_DOC_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>0A814C23-982F-CB34-A635-C0A0C3152584</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F2C51F0-468C-D6A1-1708-17E143A0C85F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62D2F469-297C-2A47-3EE5-10E45F7EAD50" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="TIPO_DOC_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>TIPO_DOC_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>25E49A99-158B-952A-7E7C-6B948E94A93B</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F2C51F0-468C-D6A1-1708-17E143A0C85F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

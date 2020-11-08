@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4DC4189C-D840-2D19-63C9-440F573DDAFC" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="PLAN">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>PLAN</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>F96AFCBA-B51C-AF30-E51B-BBCCD1A91E42</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PLAN" id="BC161506-9723-F6A5-8F64-6ABCB18169DE">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>PLAN</sourceObjSchema>
+<sourceObjName>ID_PLAN</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>DD7BA5B7-1F89-9C8F-9B2E-13E031829F19</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="EFC45AF7-8147-F917-3B67-1E6415B87301">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>PLAN</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>663C9BD2-786D-D5BE-E1CB-EE9990F633B7</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 BYTE</dataTypeSize>
+<ownDataTypeParameters>45 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_UNIDAD_ACADEMICA" id="D4692F07-A4CE-99E8-8B2B-D0F0BB4CA0FD">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>PLAN</sourceObjSchema>
+<sourceObjName>ID_UNIDAD_ACADEMICA</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>74E7587A-73BD-A846-891A-EAE590C01E34</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="453A24A4-30B2-CE86-057A-70A5702F3BC4" referredColumn="9876349C-391B-5930-3409-74186132B0A7"/>
+</associations>
+</Column>
+<Column name="ESTADO" id="6EDEF3F4-66B2-6128-D1E5-FA8DF4A4BDFA">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>2D17555A-02C1-3C87-4A84-2FF486DC8FB3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8701C014-09A1-F583-A4B3-99B1E752F534" name="PLAN_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>PLAN_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>8AC9F2C7-6560-8432-07A8-CBC7B32CAA99</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC161506-9723-F6A5-8F64-6ABCB18169DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8B8B0C4-B747-C620-251E-F8B5C14091C0" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="PLAN_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>PLAN_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>68C0D395-DD26-F710-936A-ADD4CD1509C7</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC161506-9723-F6A5-8F64-6ABCB18169DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E8C0AA72-C664-43BC-D4A5-2B54A0FBA7B8" name="PLAN_UNIDAD_ACADEMICA_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4692F07-A4CE-99E8-8B2B-D0F0BB4CA0FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

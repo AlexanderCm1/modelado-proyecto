@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E26C92A8-60BA-04A4-7F85-9D43274130EE" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="CRONOGRAMA">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>CRONOGRAMA</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>7B947A8A-F653-8305-05E0-777C810C6A19</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CRONOGRAMA" id="06223D75-415E-4503-6239-928CF8527FE2">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>CRONOGRAMA</sourceObjSchema>
+<sourceObjName>ID_CRONOGRAMA</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>3458B23C-DFE8-2993-1A51-44D94C5380D7</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EVENTO" id="D5AFB0BF-491F-8DF1-D0DA-F90CB9185B21">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>CRONOGRAMA</sourceObjSchema>
+<sourceObjName>EVENTO</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>20EF8BF3-313E-0A5D-C9DA-F8C8B1FBFAE9</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 BYTE</dataTypeSize>
+<ownDataTypeParameters>45 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INI" id="13369282-B1F3-2F14-EC91-6F28CF9C3FD9">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>CRONOGRAMA</sourceObjSchema>
+<sourceObjName>FECHA_INI</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>CB721746-2EC0-05C9-15B8-F22DABFA71E8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIN" id="6B9A38C8-3297-FFF3-731D-D1B3B6EF59AE">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>CRONOGRAMA</sourceObjSchema>
+<sourceObjName>FECHA_FIN</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>26A3BA47-1A8D-93A3-1ED2-D0370614632A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="F7EA8398-6B09-C429-EBC5-EEB65A617D6B">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>51CF1BCE-34FF-239B-A81C-E06BB07A67E6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BDCBF212-ED4F-FA82-828E-96087DD4AFE3" name="CRONOGRAMA_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>CRONOGRAMA_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>3FC5D1EA-DA33-226E-40C8-CFC3F5BC0F67</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06223D75-415E-4503-6239-928CF8527FE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9FE453F4-34D3-6715-D710-1EDC587998C5" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="CRONOGRAMA_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>CRONOGRAMA_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>6F51B72A-588C-301E-0CEC-574194AE7A18</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06223D75-415E-4503-6239-928CF8527FE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

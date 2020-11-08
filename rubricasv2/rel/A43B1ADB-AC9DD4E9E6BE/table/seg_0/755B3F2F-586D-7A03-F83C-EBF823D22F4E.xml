@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="755B3F2F-586D-7A03-F83C-EBF823D22F4E" name="PLAN_CURSOS">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>9762A995-7BD5-B729-D839-AB82B6394792</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PLAN_CURSOS" id="AFBCA99A-7673-5E1D-7D19-0E898274BA22">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>BB0AEB2B-7645-E622-1156-B0B2027BADD3</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLAN_ID_PLAN" id="ACD98D13-C459-5A86-1AE9-2B8D2C57BACA">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>5A4066A9-B2BF-BAB3-0E45-A90AC65E92AD</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C04FF21-052F-0039-42ED-70C93490B560" referredColumn="49EDAC4B-F283-F9CE-6932-D85517FC52DD"/>
+</associations>
+</Column>
+<Column name="CURSO_ID_CURSO" id="3DAE1F4E-D17A-AD68-8366-DF5B34FC6267">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>E8CFD50E-4DA7-73F3-5AB1-EE11713D3B77</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C0D3843-E25F-66EE-8222-784D0DD71773" referredColumn="DADD90CD-E815-0060-C64F-E5E585D95C60"/>
+</associations>
+</Column>
+<Column name="CICLO" id="CFCE1E97-0005-3F92-8F7C-106276494AA1">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>3A1D26F0-A25B-B9B4-C44A-55583F01874A</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LINEAS_PA_ID_LINEA_PA" id="2AE9388F-71CC-41E3-D27F-98400D19E38B">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>70101D18-C9D8-E96B-B6C7-99D919F08377</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55E5375F-C48F-4293-AA3C-0FFFE78B8F31" referredColumn="E88E90E0-69D1-2E83-DC95-3B418916E47E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B4AE39D7-5A98-37D0-8ABC-29745767E14F" name="PLAN_CURSOS_PK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>9AB73580-6ACE-9410-C315-5E18AE706552</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFBCA99A-7673-5E1D-7D19-0E898274BA22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B352C7EC-10BB-65CF-20C6-099FC7A6E974" name="PLAN_CURSOS_PLAN_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>6E2A2D2C-FA25-A47D-1FBB-BB0F4475B051</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACD98D13-C459-5A86-1AE9-2B8D2C57BACA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F7509D29-1B79-AAD7-E56A-FE70C3E5225A" name="PLAN_CURSOS_CURSO_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>1F4F5B47-8A86-155B-8A06-8D3D16E66D97</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DAE1F4E-D17A-AD68-8366-DF5B34FC6267"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="788D436D-928E-B547-4DEE-9450DED241A1" name="PLAN_CURSOS_LINEAS_PA_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>4F8A680C-AD6A-7D10-9CF9-C4C2374DEC2B</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AE9388F-71CC-41E3-D27F-98400D19E38B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

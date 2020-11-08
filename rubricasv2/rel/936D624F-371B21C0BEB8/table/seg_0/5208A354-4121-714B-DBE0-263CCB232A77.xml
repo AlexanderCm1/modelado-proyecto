@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5208A354-4121-714B-DBE0-263CCB232A77" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="NOTAS">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>NOTAS</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>7113EA4D-80BF-9ED8-41C1-FA3015F76394</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_NOTAS" id="8CEEF81F-B4F7-D0D0-0767-AE356B0113EA">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>NOTAS</sourceObjSchema>
+<sourceObjName>ID_NOTAS</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>254D7C18-60B4-26FA-6F3C-2547C9FA14E6</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_LOGRO_RUBRICA" id="79C7EE88-B5B7-1471-EFE9-E42A54C806BC">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>NOTAS</sourceObjSchema>
+<sourceObjName>ID_LOGRO_RUBRICA</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>A788CF47-0F63-ED68-FB63-1B8AF2A5B379</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F9C18EF-54AA-32B1-A458-8E75AF68C363" referredColumn="DDC9BCEE-B6A7-E8FB-DA2F-D34FBA4CAB36"/>
+</associations>
+</Column>
+<Column name="ID_EVALUADOR" id="ECD03EF3-C61E-D262-A8F2-E7EFB9F9A5CC">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>NOTAS</sourceObjSchema>
+<sourceObjName>ID_EVALUADOR</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>E7EAFEBC-E504-944B-351E-5D3290C0B4D1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91616BAA-83AF-787A-2713-2A13582471F9" referredColumn="8EC4A2A8-A84D-4483-2C5A-C553C1DCC05A"/>
+</associations>
+</Column>
+<Column name="ESTADO" id="CD38509D-4E23-F1D5-02E6-FB81DC1F957E">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>87B5F4D4-B7A8-3D1A-6EFA-3C909E23559A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ABB64EAD-906F-6009-620C-377A1AA7425E" name="NOTAS_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>NOTAS_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>992993EB-EBBF-FA97-B92C-C615B94A275A</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CEEF81F-B4F7-D0D0-0767-AE356B0113EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84939E3C-93E6-C0E9-CE4D-4536B8637345" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="NOTAS_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>NOTAS_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>70BD238B-0C35-B6CE-BB83-5DFE948A7CF3</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CEEF81F-B4F7-D0D0-0767-AE356B0113EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF068EF3-3062-C9F6-4BD9-788D014A606B" name="NOTAS_LOGRO_RUBRICA_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79C7EE88-B5B7-1471-EFE9-E42A54C806BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95D3149A-FF13-CAEA-4492-AB59BD180C48" name="NOTAS_EVALUADORES_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECD03EF3-C61E-D262-A8F2-E7EFB9F9A5CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

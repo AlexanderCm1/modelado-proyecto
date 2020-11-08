@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B7E38B0F-F0AD-732C-7445-02B9C5DBAF4C" containerWithKeyObject="C65176F6-8161-A6F6-98D0-10174D3866C3" localFKIndex="528F4E8A-5C96-EBB1-6157-E5124F099653" name="AVANCE_PY_PROYECTO_INTEGRADOR_FK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>AVANCE_PY_PROYECTO_INTEGRADOR_FK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>458E8862-82B1-3E42-4E0F-BA8B0844BE19</importedID>
+<referredTableLongName>SGRU.PROYECTO_INTEGRADOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CFAA388B-168B-32A8-89F1-97D50DB64218</referredTableID>
+<keyObject>C7F3F5C2-8EA3-C0A9-14D5-B7B37C2EB9BE</keyObject>
+<referredKeyID>C7F3F5C2-8EA3-C0A9-14D5-B7B37C2EB9BE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_PROYECTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

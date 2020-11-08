@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="558D718F-81B3-B7CE-2F89-DC231D253500" name="COMPETENCIAS_LINEA">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>AFF7A442-3C43-4B4B-112F-E5A55B1F6BBD</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CL" id="F64D94FF-551B-A231-FAB7-914417F33CFA">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>EA54BD00-806C-AD68-F151-ED9A211C5393</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LINEA_PLAN_ID" id="95209294-2610-6F56-5C61-440F4782BF85">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>EC241AD6-8A64-8F78-A3FF-E65F3F98707D</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF08A6D3-1F40-A7D4-038A-8BA9D3247F9E" referredColumn="43DF5BEA-851C-D0F8-3174-99604FA59C31"/>
+</associations>
+</Column>
+<Column name="COMPETENCIAS_ID_COMPETENCIAS" id="6146450C-EA9F-38DD-C6DE-358AE058F4BA">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>B705D5BE-3D22-6B69-8851-894CFFBE1DB7</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0AE6BB11-7C9C-F073-11C3-55380F9C760B" referredColumn="92BE672B-5514-A537-2F07-A524112E9104"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="659D73DC-5C18-26E3-F9E6-CB0A6B98FFD7" name="COMPETENCIAS_LINEA_PK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>A602289A-EF39-98E8-6B39-0143D2274DEE</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F64D94FF-551B-A231-FAB7-914417F33CFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="762EFD75-01D4-B3CD-E01D-41F417737612" name="COMPETENCIAS_LINEA_LINEA_PLAN_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>709195D5-4E4E-8468-4E36-B93EEF3BA754</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95209294-2610-6F56-5C61-440F4782BF85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="236A3EB5-A2D2-23E1-34C4-864A4AB56AAF" name="COMPETENCIAS_LINEA_COMPETENCIAS_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>C6089B68-D487-D42E-D6E2-4033F27FCC3D</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6146450C-EA9F-38DD-C6DE-358AE058F4BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

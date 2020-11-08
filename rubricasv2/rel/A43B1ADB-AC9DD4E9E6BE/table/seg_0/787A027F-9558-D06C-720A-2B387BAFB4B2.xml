@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="787A027F-9558-D06C-720A-2B387BAFB4B2" name="PROYECTO_CARGA">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>45AA2F95-02E5-7B2D-EAEC-0E78BA09DBDB</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROYECTO_INTEGRADOR_ID_PROYECTO" id="45B61429-2CFB-E4F9-C2A9-438F6671037D">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>28EAF745-A1EE-2715-6E96-76BC0BEFE8B2</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9244F36B-0B7A-A704-7C1F-35D57CE12A5B" referredColumn="39B8137B-5353-2850-6E4F-C287782647F7"/>
+</associations>
+</Column>
+<Column name="CARGA_ACADEMICA_ID_CARGA_ACADEMICA" id="37AE9DAD-D5C1-5246-7685-2AAB9D315EFA">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>9F651002-42BD-9066-E55D-BFAB4DB273EE</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="33720BB0-2A56-8CB0-9AAF-9AE2E6950773" referredColumn="B61B246F-948F-24CD-0C83-D6E651175A04"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="92E4C7F3-08DB-0A6F-75E3-B93BAB4685D5" name="PROYECTO_CARGA_PROYECTO_INTEGRADOR_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>3A7B8FAA-29B6-4B24-261D-7A3D2A16ED8C</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45B61429-2CFB-E4F9-C2A9-438F6671037D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E788BFDF-1EB7-709F-C17C-4D8E095DC0A1" name="PROYECTO_CARGA_CARGA_ACADEMICA_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>4C06E3E7-2C67-0761-66DE-D4933400EF55</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37AE9DAD-D5C1-5246-7685-2AAB9D315EFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

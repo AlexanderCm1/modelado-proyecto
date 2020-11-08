@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1DFAEEB6-D902-1443-59D5-687E822207F5" containerWithKeyObject="C884DEF5-6B96-D91B-8FBB-E0A64DA0A25F" localFKIndex="20FB090F-F105-B6CA-0CEC-36BE5C429F03" name="INFORME_RESULTADOS_FK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>INFORME_RESULTADOS_FK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>192B4777-3664-0932-2A51-E5C66D0BD773</importedID>
+<referredTableLongName>SGRU.RESULTADOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F36003A3-B059-029A-5C52-83558E67803B</referredTableID>
+<keyObject>CAD9AC28-91E1-ECBA-E658-380B6F4105F7</keyObject>
+<referredKeyID>CAD9AC28-91E1-ECBA-E658-380B6F4105F7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_RESULTADOS</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

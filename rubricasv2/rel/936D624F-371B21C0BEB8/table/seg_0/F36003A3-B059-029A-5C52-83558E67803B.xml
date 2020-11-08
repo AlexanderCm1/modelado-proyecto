@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F36003A3-B059-029A-5C52-83558E67803B" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="RESULTADOS">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>RESULTADOS</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>F40F1633-1B75-EE32-C69E-BA10B4479BB9</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_RESULTADOS" id="5273EC37-D8A2-7D55-5CFE-6F7DBEC39CC9">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>RESULTADOS</sourceObjSchema>
+<sourceObjName>ID_RESULTADOS</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>3C519DE1-A28C-B490-B08F-A26DFADD0A55</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_NOTAS" id="C18E4DAF-230D-DC20-09C6-43FC8A016507">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>RESULTADOS</sourceObjSchema>
+<sourceObjName>ID_NOTAS</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>F1C7F55D-A539-56F4-6916-88A592A14FB1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4BC2379C-972A-DF7D-64FD-CC1529C49DA5" referredColumn="8CEEF81F-B4F7-D0D0-0767-AE356B0113EA"/>
+</associations>
+</Column>
+<Column name="ESTADO" id="BD6183DB-6AB0-68EC-A9F8-E8C6CFA7A623">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>B8211E66-4F68-887C-20DD-A1146D167172</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CAD9AC28-91E1-ECBA-E658-380B6F4105F7" name="RESULTADOS_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>RESULTADOS_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>4CD72E30-6413-5E67-DFFC-71061DCBC3CD</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5273EC37-D8A2-7D55-5CFE-6F7DBEC39CC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="198B6E8E-88BA-6273-1C38-EE1CD083E043" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="RESULTADOS_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>RESULTADOS_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>A2437E46-D448-F744-384D-E9AE69720B16</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5273EC37-D8A2-7D55-5CFE-6F7DBEC39CC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="732DB6C0-C39F-6EB8-B67B-8D6F54DE47BB" name="RESULTADOS_NOTAS_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C18E4DAF-230D-DC20-09C6-43FC8A016507"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

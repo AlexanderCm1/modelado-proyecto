@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="91616BAA-83AF-787A-2713-2A13582471F9" containerWithKeyObject="5208A354-4121-714B-DBE0-263CCB232A77" localFKIndex="95D3149A-FF13-CAEA-4492-AB59BD180C48" name="NOTAS_EVALUADORES_FK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>NOTAS_EVALUADORES_FK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>A5021180-923E-8825-AD2E-2B42A8368D3A</importedID>
+<referredTableLongName>SGRU.EVALUADOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3ABD90EA-AF9A-7D35-3E34-46308DAFF971</referredTableID>
+<keyObject>5AF38A99-86F2-21C7-D7BA-DA77DF83EC21</keyObject>
+<referredKeyID>5AF38A99-86F2-21C7-D7BA-DA77DF83EC21</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_EVALUADOR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A651D974-80E8-41EF-752B-3B2817D0F9B6" name="CARGA_ACADEMICA">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Es la tabla de enlace entre un docente con un curso perteneciente a un plan y ciclo]]></commentInRDBMS>
+<generatorID>7DB7E2D6-3146-3104-EEA1-261B294BD51A</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CARGA_ACADEMICA" id="B61B246F-948F-24CD-0C83-D6E651175A04">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>39BD3638-65DC-2B03-F7C7-D81D6FB1EC13</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_DOCENTE" id="B8FD5056-053A-03FE-8E66-DF33FC7235E5">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>B2F48A09-7583-1561-A883-1A6E07E5DF99</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOCENTE_EVALUADOR_ID_PERSONA" id="FC67EDFA-5EBF-3153-F316-627115C08645">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>A6DC3ABE-1328-9F37-8EB0-1E06C0E0EB44</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76F80215-FB90-4CC5-3CEB-1564E1AB342F" referredColumn="302FBFDE-13BE-79C2-1A22-103E7DC9D6CB"/>
+</associations>
+</Column>
+<Column name="ESTADO" id="F89CED2B-5E05-55BC-53FA-6D8C9C2A779B">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>4DD1E509-7DAA-4F09-D1E8-314933FB5B6A</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Grupo" id="8A49632C-EDCC-5388-9400-F440B4839646">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>2F7963B6-2830-B66F-73DE-D5877FB8B243</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Semestre_ID_SEMESTRE" id="DA1B9D1A-B5EA-06EF-8730-61D5C3E4316C">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>B4C3F661-DE6F-2F74-1494-B67E82D3E1D0</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E14D80A6-AC1D-5F6A-C87C-9A36187C2200" referredColumn="D21A7F5D-848B-5165-D989-D13DBA3ABD1E"/>
+</associations>
+</Column>
+<Column name="PLAN_CURSOS_ID_PLAN_CURSOS" id="5F82AEDE-7560-9E5C-6B81-9B71A434739D">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>F1788AA0-7A22-BE5B-A4BE-BADC3FFAC919</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F54CB75D-B40C-94E1-F927-7ED4E0B420F5" referredColumn="AFBCA99A-7673-5E1D-7D19-0E898274BA22"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7EBDFB6C-FD15-AD98-0C00-D317982C516E" name="CARGA_ACADEMICA_PK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>8F4C6A49-70D9-8FB8-693F-10889A589DEF</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B61B246F-948F-24CD-0C83-D6E651175A04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D1FBAA50-6C51-4EAB-642D-216979DCD75F" name="CARGA_ACADEMICA_DOCENTE_EVALUADOR_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>B4D8D591-FD0F-4D3E-1A8D-CCC17F96650F</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC67EDFA-5EBF-3153-F316-627115C08645"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CABA2596-DE01-EEB7-ABFF-493220910EA7" name="CARGA_ACADEMICA_Semestre_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>92F56689-8448-D8CD-7816-61FDD5E0D9EE</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA1B9D1A-B5EA-06EF-8730-61D5C3E4316C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="008E61E1-7928-CE72-BC20-D561BD990BBF" name="CARGA_ACADEMICA_PLAN_CURSOS_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>A4D996AE-2ADE-31DB-E53C-600913450E0C</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F82AEDE-7560-9E5C-6B81-9B71A434739D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

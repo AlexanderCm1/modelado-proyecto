@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="06213D16-DA71-43A6-ED1A-2417B7589390" containerWithKeyObject="F29D21DE-D181-4087-5936-2D4AA50EBB8F" localFKIndex="4227519B-E933-96C4-D122-2670C94940EC" name="EVALUACION_NIVEL_LOGRO_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>03F5B553-030B-CFF6-8E40-BA6DA5A05E42</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<referredTableLongName>NIVEL_LOGRO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3F554D4E-1400-8267-367A-5BC633F1A7B0</referredTableID>
+<keyObject>184A900A-22D4-4BB1-A972-73F444B273B9</keyObject>
+<referredKeyID>184A900A-22D4-4BB1-A972-73F444B273B9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_NIVEL_LOGRO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

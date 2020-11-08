@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7501C990-CC27-E5C5-3D25-50E4A29AEA41" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="ESTUDIANTE">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>ESTUDIANTE</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>5F4056B6-89BB-1FA9-EAC8-B31C8B6BD123</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PERSONA" id="70F557F2-9302-A19E-499C-6C5F07B50684">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>ESTUDIANTE</sourceObjSchema>
+<sourceObjName>ID_PERSONA</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>65D0E65F-56B6-82EE-836A-A4FA6B5DBAC7</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80C8E6CA-273D-21B1-2933-30B2FFAAA32D" referredColumn="7C15B022-4573-1719-9D4B-CA1ACF579C08"/>
+</associations>
+</Column>
+<Column name="CODIGO_ESTUDIANTE" id="4FD28F31-7E6A-FF24-B9DB-5BD65B97F7D9">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>ESTUDIANTE</sourceObjSchema>
+<sourceObjName>CODIGO_ESTUDIANTE</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>A56D75E9-4762-82AE-8DFF-59CC7DEAFC18</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="55D8013E-F4E8-1BD7-79E4-D95C445272F7">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>54E06D8F-06BD-7A8E-151D-C7B7C06A9D03</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="497DD556-BC9D-8088-17A7-3DDC53D29E1B" name="ESTUDIANTE_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>ESTUDIANTE_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>5A786F21-8532-D979-77E6-5158F2F9F209</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70F557F2-9302-A19E-499C-6C5F07B50684"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="417F8D7A-707F-9721-9E65-0C550E462CF3" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="ESTUDIANTE__IDX">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>ESTUDIANTE__IDX</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>478AF935-58E0-1D9A-0EB2-35FDF5A84F6C</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70F557F2-9302-A19E-499C-6C5F07B50684"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="627060CC-2C86-729F-665C-1DF5E1305E07" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="ESTUDIANTE_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>ESTUDIANTE_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>71C08DCD-4355-A037-225B-23B1AD856FD6</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FD28F31-7E6A-FF24-B9DB-5BD65B97F7D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BCA27ABF-536F-EC72-2091-F41E6D36F209" name="ESTUDIANTE_PERSONA_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70F557F2-9302-A19E-499C-6C5F07B50684"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

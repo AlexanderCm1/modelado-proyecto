@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="26A2E722-2677-874F-AE5B-42E161D0D160" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="LOGRO_COMPETENCIAS">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>LOGRO_COMPETENCIAS</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>5A2801A9-E8CA-F748-D050-A9E598B95528</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_LOGRO_COMPETENCIAS" id="2857C277-A865-5891-65A0-F8ECF802E0AC">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>LOGRO_COMPETENCIAS</sourceObjSchema>
+<sourceObjName>ID_LOGRO_COMPETENCIAS</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>736AC2DA-09FB-440A-5487-16439302B880</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="D7562779-EA28-D0C4-28FD-C5488FAAE7D3">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>LOGRO_COMPETENCIAS</sourceObjSchema>
+<sourceObjName>DESCRIPCION</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>EB7B767D-BC6D-86D7-19BE-92363FAD1739</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_NIVEL_LOGRO" id="AA8115B3-BDDD-82D9-9E30-D56BA62DCF44">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>LOGRO_COMPETENCIAS</sourceObjSchema>
+<sourceObjName>ID_NIVEL_LOGRO</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>A1336C7D-8D59-6487-6F19-48FB90DA4DC7</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="88A2C300-7FEA-382D-08A3-40A269F37AB1" referredColumn="56EF895B-F37E-B1C5-09A7-3BB97B0A16DD"/>
+</associations>
+</Column>
+<Column name="ID_COMPETENCIAS" id="DFDB25C5-3A07-D279-722E-B62931681492">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>LOGRO_COMPETENCIAS</sourceObjSchema>
+<sourceObjName>ID_COMPETENCIAS</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>526A2CB3-C1BD-8F32-8FF0-D16DCEC9EAC8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0DDE87D9-00F4-C1FF-5381-D05B771CF4EC" referredColumn="25D1AE7C-A480-68FC-E4E2-179836FA5DCE"/>
+</associations>
+</Column>
+<Column name="ESTADO" id="07440D77-72C5-7F19-CA65-4060E7BFA29E">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>DD9823FD-5F8B-9385-F13A-29BFE4D3C117</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="17E19751-EC9B-FA7F-E939-0A26615B97F2" name="LOGRO_COMPETENCIAS_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>LOGRO_COMPETENCIAS_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>1CEAEB4A-246D-87A3-012F-FC0ADBB27564</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2857C277-A865-5891-65A0-F8ECF802E0AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE954258-ECC0-EA91-D7AB-7137FD033776" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="LOGRO_COMPETENCIAS_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>LOGRO_COMPETENCIAS_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>B34737F7-5EAA-BF68-62AB-CDEFC9D72615</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2857C277-A865-5891-65A0-F8ECF802E0AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C3BC76A-77AB-4C92-4E11-C4208E2B1A15" name="LOGRO_COMPETENCIAS_COMPETENCIAS_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFDB25C5-3A07-D279-722E-B62931681492"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9ECC5FB-7627-75BB-7616-E0CBAA7F465E" name="LOGRO_COMPETENCIAS_NIVEL_LOGRO_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA8115B3-BDDD-82D9-9E30-D56BA62DCF44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84151610-43E1-D855-56DF-41B70C27EC77" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="PERSONA">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>PERSONA</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>BDC158E6-7205-0E4E-C7DD-931496D3851B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PERSONA" id="7C15B022-4573-1719-9D4B-CA1ACF579C08">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>PERSONA</sourceObjSchema>
+<sourceObjName>ID_PERSONA</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>75371C07-13C5-4C27-9CC4-6935F9FEC490</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRES" id="36B5A202-621B-16E4-8F26-B27B9972B0E6">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>PERSONA</sourceObjSchema>
+<sourceObjName>NOMBRES</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>951EF27E-6F54-F934-7121-835B08462048</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 BYTE</dataTypeSize>
+<ownDataTypeParameters>45 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDOS" id="C053F589-DE51-E548-3BBB-815E48CAE6C2">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>PERSONA</sourceObjSchema>
+<sourceObjName>APELLIDOS</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>83497E68-48E5-EEED-DCB6-CFCE3F5ECE42</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 BYTE</dataTypeSize>
+<ownDataTypeParameters>45 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEXO" id="7D9CE699-E3CF-E62E-AE23-C79B9151BAB5">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>PERSONA</sourceObjSchema>
+<sourceObjName>SEXO</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>76DF7E07-F1DC-A511-0263-E40E63EBA85C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="N_DOC" id="AF73DBAB-DF53-A4CB-0095-B736468560F5">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>PERSONA</sourceObjSchema>
+<sourceObjName>N_DOC</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>08879F72-C34E-4B96-B100-53DE64C70111</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_TIPO_DOC" id="C904B464-74F8-47D2-4F53-340640CE1C7B">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>PERSONA</sourceObjSchema>
+<sourceObjName>ID_TIPO_DOC</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>F825A327-582F-B390-91DB-A67E499E78B9</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C6DBC833-396E-B010-76FC-BE21C8B37014" referredColumn="1F2C51F0-468C-D6A1-1708-17E143A0C85F"/>
+</associations>
+</Column>
+<Column name="ESTADO" id="028CB21C-7F93-A6F3-14B2-1AB88FE2B4F8">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>8692B196-8EEA-62FD-89CC-15E6951BC13B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="572094CE-0B4F-23D3-616D-E30AFC0B937B" name="PERSONA_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>PERSONA_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>138107C0-FA03-F453-7BB9-D7B997C87652</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C15B022-4573-1719-9D4B-CA1ACF579C08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6F1EC8F-A90D-965A-A05F-2E3F1FF5145C" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="PERSONA_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>PERSONA_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>2B83193B-D1CB-F565-6419-FD8FF5DF0979</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C15B022-4573-1719-9D4B-CA1ACF579C08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="686669ED-A8F7-B0D4-A7F7-346CB8A3BBC2" name="PERSONA_TIPO_DOC_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C904B464-74F8-47D2-4F53-340640CE1C7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

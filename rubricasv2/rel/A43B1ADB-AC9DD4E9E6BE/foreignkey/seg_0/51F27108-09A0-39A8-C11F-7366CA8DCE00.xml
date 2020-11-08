@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="51F27108-09A0-39A8-C11F-7366CA8DCE00" containerWithKeyObject="3CF60DD9-79B2-749C-12F9-3CE5019C21BD" localFKIndex="78BB9382-850B-BBC0-89DB-9D0C1B0B8838" name="AVANCE_PY_PROYECTO_INTEGRADOR_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>CFA76780-8772-7A1D-3A3D-B635A8869F59</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<referredTableLongName>PROYECTO_INTEGRADOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2B963BED-2424-0FA9-D619-8DA9D2A16C66</referredTableID>
+<keyObject>44AC1D34-C4FF-F6F0-69AB-660612502038</keyObject>
+<referredKeyID>44AC1D34-C4FF-F6F0-69AB-660612502038</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_PROYECTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

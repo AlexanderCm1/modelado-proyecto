@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6C99EE3E-D9C8-03B5-3A19-868F453CBEC6" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="TIPO_EVALUADOR">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>TIPO_EVALUADOR</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>F2234AA8-7795-72AA-0625-A75587EE6809</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TIPO_EVALUADOR" id="11D2B929-F6AE-677B-A86B-75B84E2670C0">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>TIPO_EVALUADOR</sourceObjSchema>
+<sourceObjName>ID_TIPO_EVALUADOR</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>E93C4448-3E41-9101-3265-116D3BDD1EA5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="E856DA82-2EBA-5FE1-190A-FF3303C8B152">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>TIPO_EVALUADOR</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>00E82E96-E6E0-DFC9-373C-61B45139DB80</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 BYTE</dataTypeSize>
+<ownDataTypeParameters>45 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOCENTE_ID_PERSONA" id="BA414BD2-218A-9C91-D5D1-9C7292A1B68A">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>2FE23B14-442D-2BD5-9539-F797808ED9A6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B3F766A1-062E-7ABB-2C8F-A5F8A1D81B9A" referredColumn="20526A41-9188-B5BE-1F1B-E6779FE878B8"/>
+</associations>
+</Column>
+<Column name="EVALUADOR_EXTERNO_ID_PERSONA" id="24677D4C-08C3-84BB-9202-D9A63EA9C88C">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>A48C9037-4D07-B222-79B1-F676FB66A3DB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B50A6F70-4028-077B-514B-0BA30E373191" referredColumn="E50511D9-F53C-396E-2BB1-11DE07DF8FDE"/>
+</associations>
+</Column>
+<Column name="ESTADO" id="17BDD26A-A1F7-6D04-0EFF-F1273A645AEA">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>018AFBB1-6068-1E6D-2900-5FB55C72900C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="02DC845B-DD52-A969-B6D2-39B8B0AAADD4" name="TIPO_ODBRETCH_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>TIPO_ODBRETCH_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>F4A00D90-A764-C93D-3CEC-326B1DC19034</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11D2B929-F6AE-677B-A86B-75B84E2670C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="968D3081-019A-E709-6214-252EC61F4286" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="TIPO_ODBRETCH_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>TIPO_ODBRETCH_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>905BB483-DDFD-4124-3588-A6B98C09FC5D</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11D2B929-F6AE-677B-A86B-75B84E2670C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="885CB334-4A9C-B13A-AF04-0C743D71414C" name="TIPO_ODBRETCH_EVALUADOR_EXTERNO_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24677D4C-08C3-84BB-9202-D9A63EA9C88C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2659C35E-7F76-7383-9D83-084D7EECDABA" name="TIPO_ODBRETCH_DOCENTE_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA414BD2-218A-9C91-D5D1-9C7292A1B68A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

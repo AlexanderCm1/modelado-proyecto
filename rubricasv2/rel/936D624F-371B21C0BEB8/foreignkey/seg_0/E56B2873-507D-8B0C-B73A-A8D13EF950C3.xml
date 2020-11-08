@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E56B2873-507D-8B0C-B73A-A8D13EF950C3" containerWithKeyObject="1BC30AB4-C718-0C20-7222-C90A5F8EC5E0" localFKIndex="02D6CC01-0F90-30E4-8327-7C478EC2D223" name="COMPETENCIAS_TIPO_INSTRUMENTO_FK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>COMPETENCIAS_TIPO_INSTRUMENTO_FK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>BE024274-7424-9F10-EEC9-64E54CB60E49</importedID>
+<referredTableLongName>SGRU.TIPO_INSTRUMENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A700C83F-112E-1B9A-D51A-BC11297A1BAF</referredTableID>
+<keyObject>39A2165A-DB08-3924-9A8C-6D7A2B4F06AD</keyObject>
+<referredKeyID>39A2165A-DB08-3924-9A8C-6D7A2B4F06AD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_TIPO_INSTRUMENTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

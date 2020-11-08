@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="222B833C-9C23-8FCE-797B-94432D570A23" containerWithKeyObject="0ECA67FA-F277-D586-5B84-29293B081E43" localFKIndex="92B80EE0-3B33-2159-C3F4-8B5AEC4178C6" name="LOGRO_RUBRICA_RUBRICAS_FK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>LOGRO_RUBRICA_RUBRICAS_FK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>5CD75106-BF5A-53BD-9018-D09CDD87D2EA</importedID>
+<referredTableLongName>SGRU.RUBRICAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8A4679A1-FECF-364D-5526-FD4AC34850F2</referredTableID>
+<keyObject>4BC069C8-5565-92B3-8D76-63340506D4D6</keyObject>
+<referredKeyID>4BC069C8-5565-92B3-8D76-63340506D4D6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_RUBRICA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

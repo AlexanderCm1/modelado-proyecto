@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C884DEF5-6B96-D91B-8FBB-E0A64DA0A25F" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="INFORME">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>INFORME</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>438F5C54-584C-528A-97CE-CF4C83AAFCB9</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_INFORME" id="4D110C97-482A-DFB2-FD53-DBDB3B46316F">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>INFORME</sourceObjSchema>
+<sourceObjName>ID_INFORME</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>D87D3FBB-457E-F1EE-6664-2F3F26ABF66C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_RESULTADOS" id="991C8277-59E6-C8D1-A941-D62D231449CE">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>INFORME</sourceObjSchema>
+<sourceObjName>ID_RESULTADOS</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>22FF44CA-17EA-27CA-7BCA-9AE56B5EE860</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1DFAEEB6-D902-1443-59D5-687E822207F5" referredColumn="5273EC37-D8A2-7D55-5CFE-6F7DBEC39CC9"/>
+</associations>
+</Column>
+<Column name="ESTADO" id="AE48E3D8-286D-3C8E-FA16-2909E5CC9143">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>3F0FAB3F-241B-1A3B-B683-D26DB64D2F91</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="43C3FE1F-2DE2-90A5-E8F6-9AF74D45F639" name="INFORME_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>INFORME_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>49B1FB36-5959-FE65-FE9D-E87C69A038F1</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D110C97-482A-DFB2-FD53-DBDB3B46316F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6AA155D-6C9F-A5CE-229C-A1D4FD019784" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="INFORME_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>INFORME_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>EBF96A4B-DD14-3C15-7043-FEF0C2ADFBA1</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D110C97-482A-DFB2-FD53-DBDB3B46316F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20FB090F-F105-B6CA-0CEC-36BE5C429F03" name="INFORME_RESULTADOS_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="991C8277-59E6-C8D1-A941-D62D231449CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

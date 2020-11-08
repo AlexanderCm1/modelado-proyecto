@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="SGRU" directorySegmentName="seg_0" id="E4800BAF-6A8A-E017-0546-1BF5224D8744">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>AE83E89D-7458-E4C7-5972-8E6FE596A47B</importedID>
+</SchemaObject>

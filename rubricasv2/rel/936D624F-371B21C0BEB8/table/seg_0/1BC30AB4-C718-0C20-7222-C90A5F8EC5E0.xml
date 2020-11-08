@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1BC30AB4-C718-0C20-7222-C90A5F8EC5E0" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="COMPETENCIAS">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>COMPETENCIAS</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>0C5209C4-C818-224E-1FB0-24070CCC64E2</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_COMPETENCIAS" id="25D1AE7C-A480-68FC-E4E2-179836FA5DCE">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>COMPETENCIAS</sourceObjSchema>
+<sourceObjName>ID_COMPETENCIAS</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>3D02971C-CECE-C081-E9B8-BC66E09F87B1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="F20CF35C-84E7-9418-304E-AB9D23ED1088">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>COMPETENCIAS</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>AD0D8F9C-1EF2-8437-DB27-B50EF9868409</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 BYTE</dataTypeSize>
+<ownDataTypeParameters>45 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_TIPO_INSTRUMENTO" id="CEB5E8CB-911B-59BB-1F79-8C9FBC038BB0">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>COMPETENCIAS</sourceObjSchema>
+<sourceObjName>ID_TIPO_INSTRUMENTO</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>40268F03-AA3A-49A7-3B68-04A32EEBEB43</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E56B2873-507D-8B0C-B73A-A8D13EF950C3" referredColumn="D8E8578B-26F3-10A0-20A8-FBE32D0F89C8"/>
+</associations>
+</Column>
+<Column name="ID_LINEA_PA" id="22889CB3-AFAA-5363-7E31-7AF80CFA7AA8">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>COMPETENCIAS</sourceObjSchema>
+<sourceObjName>ID_LINEA_PA</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>DCFDBBEA-0453-EF77-42A4-BD327AA5D81C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1CA8BB8-A333-E478-B45E-FAEA67077976" referredColumn="E6AFB32B-6727-C264-07D4-BFE4F8E8D3DD"/>
+</associations>
+</Column>
+<Column name="ESTADO" id="3DE6A11D-D1FB-D274-FAA8-B6FF23D8A9E0">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>06A953C3-5CD6-94F4-C664-599E859CBB3A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87E7DD22-0190-1701-4D12-FACC871FCD63" name="COMPETENCIAS_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>COMPETENCIAS_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>ACCD1190-6568-DE4C-E597-EAF0B8DAA1FF</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25D1AE7C-A480-68FC-E4E2-179836FA5DCE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE8A16E8-7350-93B3-365A-300F6BD4FA24" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="COMPETENCIAS_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>COMPETENCIAS_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>D26FF758-4446-287A-4BE2-AE2C4B1784AC</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25D1AE7C-A480-68FC-E4E2-179836FA5DCE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70C0676E-861E-604D-9FCA-947687CABEF2" name="COMPETENCIAS_LINEAS_PA_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22889CB3-AFAA-5363-7E31-7AF80CFA7AA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="02D6CC01-0F90-30E4-8327-7C478EC2D223" name="COMPETENCIAS_TIPO_INSTRUMENTO_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEB5E8CB-911B-59BB-1F79-8C9FBC038BB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

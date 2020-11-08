@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="53C8C64C-E7CC-EB35-C32E-24E670F5A521" name="ESTUDIANTE">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>281326E8-D2C0-5D70-5818-41D2E7FBF956</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PERSONA_ID_PERSONA" id="65F110ED-E453-DD3E-04B9-C8760BB0B478">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>F0CCA279-0C38-E9F7-8FEF-FA5438FA876A</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D8F4B73-C0C7-B876-073D-3289AE1539E3" referredColumn="D0C27D35-5422-FD0C-CF24-693F51D89BBF"/>
+</associations>
+</Column>
+<Column name="CODIGO_ESTUDIANTE" id="CD86AD6C-204C-0551-A406-6C9099D399BA">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>8F0D68AA-ED92-D1E7-5C35-99E8C7A76CD4</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="2AD49587-000F-7C49-140F-3E43B753B1E1">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>B540491C-C4E5-7A1F-E67A-5F22F42BC3DE</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLAN_ID_PLAN" id="9A4FC98B-5DF3-2AA7-B4B3-85A776A7D852">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>B64872A5-9FA9-13CB-1520-7B4CBCFBDC77</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3CD32C17-A71A-CC86-96B9-C334A6BDC387" referredColumn="49EDAC4B-F283-F9CE-6932-D85517FC52DD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A4B0520B-35D7-DF8B-EEF0-9B3D9DA02F3A" name="ESTUDIANTE_PK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>F81BCD14-B852-8169-5FA0-8F42C3D811B2</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65F110ED-E453-DD3E-04B9-C8760BB0B478"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DCD77C03-3540-95D6-D3B4-0A6B33A096AE" name="ESTUDIANTE_PERSONA_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>7E39E533-4493-8A90-0994-A109969B9CCB</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65F110ED-E453-DD3E-04B9-C8760BB0B478"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7841BE00-B34C-CC67-AE49-280A6EB9D359" name="ESTUDIANTE_PLAN_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>1B5207A0-8ECC-C02A-23AB-C64150AEFCDD</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A4FC98B-5DF3-2AA7-B4B3-85A776A7D852"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

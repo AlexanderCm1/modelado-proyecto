@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="UNIDAD_ACADEMICA_UNIDAD_ACADEMICA_FK" directorySegmentName="seg_0" id="FDC35F35-6A78-1532-07CF-AB743AAC8C9A">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>7ACD4A15-FDE4-A46F-4A43-E30A0812A7F1</importedID>
+<engineerTo>
+<item key="936D624F-3E2B-63FF-92E4-371B21C0BEB8" value="true"/>
+<item key="A43B1ADB-FC1E-76BB-4908-AC9DD4E9E6BE" value="true"/>
+</engineerTo>
+<targetPk>3B88B40F-C6DA-BE53-6F83-4DB375FCCEA9</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E399E4BC-DD01-F965-0A15-B001A2831A61</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E399E4BC-DD01-F965-0A15-B001A2831A61</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

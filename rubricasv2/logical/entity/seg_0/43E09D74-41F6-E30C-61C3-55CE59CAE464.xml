@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="43E09D74-41F6-E30C-61C3-55CE59CAE464" name="EVALUACION">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 19:31:44 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<engineerTo>
+<item key="936D624F-3E2B-63FF-92E4-371B21C0BEB8" value="true"/>
+<item key="A43B1ADB-FC1E-76BB-4908-AC9DD4E9E6BE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="B055C139-3565-5104-210B-DC1529526585">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 19:32:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[TABLA PARA MARCAR]]></commentInRDBMS>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<engineerTo>
+<item key="936D624F-3E2B-63FF-92E4-371B21C0BEB8" value="true"/>
+<item key="A43B1ADB-FC1E-76BB-4908-AC9DD4E9E6BE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID RUBRICA" id="8338620F-3798-6788-B034-C944B1D787FC">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 19:33:02 UTC</createdTime>
+<generatorID>CF2E3DA4-AF79-946B-9972-281067D4BCEE</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<engineerTo>
+<item key="936D624F-3E2B-63FF-92E4-371B21C0BEB8" value="true"/>
+<item key="A43B1ADB-FC1E-76BB-4908-AC9DD4E9E6BE" value="true"/>
+</engineerTo>
+<referedAttribute>935F5AD3-AAC9-EC14-6AAA-40F52434BA6B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID EVALUADOR" id="B682A1C2-AEDA-85FE-FAD5-145C21AA408F">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 19:33:25 UTC</createdTime>
+<generatorID>52F7AB78-EE42-EBD8-8AF6-6D8AB6594A39</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<engineerTo>
+<item key="936D624F-3E2B-63FF-92E4-371B21C0BEB8" value="true"/>
+<item key="A43B1ADB-FC1E-76BB-4908-AC9DD4E9E6BE" value="true"/>
+</engineerTo>
+<referedAttribute>83D01691-A8AE-27CC-0C5C-BFFF404AC70F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID NIVEL LOGRO" id="B38E4CD9-0923-6B93-BE0A-EBF01DAD243C">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 19:33:31 UTC</createdTime>
+<generatorID>03F5B553-030B-CFF6-8E40-BA6DA5A05E42</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<engineerTo>
+<item key="936D624F-3E2B-63FF-92E4-371B21C0BEB8" value="true"/>
+<item key="A43B1ADB-FC1E-76BB-4908-AC9DD4E9E6BE" value="true"/>
+</engineerTo>
+<referedAttribute>8041C573-BAFF-F7C0-64E6-97A457F2FF86</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID PERSONA" id="6FFC4426-B48C-DC50-E9B4-E57630AEA579">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 19:33:37 UTC</createdTime>
+<generatorID>A7EDCF9E-6B58-F57F-5126-124D35A65DB5</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<engineerTo>
+<item key="936D624F-3E2B-63FF-92E4-371B21C0BEB8" value="true"/>
+<item key="A43B1ADB-FC1E-76BB-4908-AC9DD4E9E6BE" value="true"/>
+</engineerTo>
+<referedAttribute>F0CCA279-0C38-E9F7-8FEF-FA5438FA876A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

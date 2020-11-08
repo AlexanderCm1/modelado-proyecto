@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C1CA8BB8-A333-E478-B45E-FAEA67077976" containerWithKeyObject="1BC30AB4-C718-0C20-7222-C90A5F8EC5E0" localFKIndex="70C0676E-861E-604D-9FCA-947687CABEF2" name="COMPETENCIAS_LINEAS_PA_FK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>COMPETENCIAS_LINEAS_PA_FK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>48BC92C8-2459-9BAB-C4A5-A47547DD3195</importedID>
+<referredTableLongName>SGRU.LINEAS_PA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AF471387-FF06-9A0C-1882-6F0DA8E49F0F</referredTableID>
+<keyObject>0C7C288A-883A-1B07-EDF2-2B3BC0EA4AEF</keyObject>
+<referredKeyID>0C7C288A-883A-1B07-EDF2-2B3BC0EA4AEF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_LINEA_PA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

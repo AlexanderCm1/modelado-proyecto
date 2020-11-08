@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E752148D-5F9A-F584-D186-94FDDDC6AD52" name="UNIDAD_ACADEMICA">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>E399E4BC-DD01-F965-0A15-B001A2831A61</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_UNIDAD_ACADEMICA" id="217960A6-6D93-1D25-750A-03798D459F62">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>4BE6C898-60A6-3346-B84C-B7CEACD2192C</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="639DBB04-4F79-51B7-989B-08F92D842243">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>8754B75C-3127-5D6B-7BED-B13351D9527A</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 BYTE</dataTypeSize>
+<ownDataTypeParameters>45 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_UNIDAD_ACADEMICA_ID_TIPO_UNIDAD" id="8B75F960-F92E-8942-289C-871E00B281A9">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>310F4CEE-0C54-85D9-633F-C8EBF7F0A772</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7953B58-AE5D-DD9B-9EAC-C587D9DC6C76" referredColumn="1179BA87-C5C2-27D4-F186-771317CB1FEC"/>
+</associations>
+</Column>
+<Column name="UNIDAD_ACADEMICA_ID_UNIDAD_ACADEMICA" id="99A4FD6A-9C7E-6B90-2920-AEEC12F72C74">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>BD55DF97-E7FB-9A19-E066-C3A26A222E23</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77972F23-D15B-D16D-A16C-20D89C73F710" referredColumn="217960A6-6D93-1D25-750A-03798D459F62"/>
+</associations>
+</Column>
+<Column name="ESTADO" id="90CA436D-40C3-9D37-7839-7EB01184CDFD">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>2962A806-54DB-4B95-B454-B44E901535C3</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="607F8A74-2771-6456-2B27-D3639D668D0C" name="UNIDAD_ACADEMICA_PK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>3B88B40F-C6DA-BE53-6F83-4DB375FCCEA9</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="217960A6-6D93-1D25-750A-03798D459F62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67667747-6D11-A6AF-5DA3-D956F9052F82" name="UNIDAD_ACADEMICA_TIPO_UNIDAD_ACADEMICA_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>6F032816-CC02-35B7-896F-3EF6E4E6179B</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B75F960-F92E-8942-289C-871E00B281A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="385A5979-FEEB-0BEA-0540-D0F11FF7EFDE" name="UNIDAD_ACADEMICA_UNIDAD_ACADEMICA_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>FDC35F35-6A78-1532-07CF-AB743AAC8C9A</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99A4FD6A-9C7E-6B90-2920-AEEC12F72C74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

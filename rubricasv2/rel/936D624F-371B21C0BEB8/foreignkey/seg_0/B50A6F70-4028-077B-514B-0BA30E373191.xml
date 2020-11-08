@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B50A6F70-4028-077B-514B-0BA30E373191" containerWithKeyObject="6C99EE3E-D9C8-03B5-3A19-868F453CBEC6" localFKIndex="885CB334-4A9C-B13A-AF04-0C743D71414C" name="TIPO_ODBRETCH_EVALUADOR_EXTERNO_FK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>TIPO_ODBRETCH_EVALUADOR_EXTERNO_FK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>4B1E35E0-B030-AA21-63BB-AC0FCF308B5F</importedID>
+<referredTableLongName>SGRU.EVALUADOR_EXTERNO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C924BC00-7ED1-4813-E323-3C12A10AFD53</referredTableID>
+<keyObject>215F4C96-9622-5567-2E9C-339987F6BE60</keyObject>
+<referredKeyID>215F4C96-9622-5567-2E9C-339987F6BE60</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_PERSONA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF471387-FF06-9A0C-1882-6F0DA8E49F0F" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="LINEAS_PA">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>LINEAS_PA</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[Es la tabla de lineas de especializacion de una carrera]]></commentInRDBMS>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>450A7C5E-E51D-F06C-77DE-80AF65F980E3</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_LINEA_PA" id="E6AFB32B-6727-C264-07D4-BFE4F8E8D3DD">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>LINEAS_PA</sourceObjSchema>
+<sourceObjName>ID_LINEA_PA</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>689C84D8-A15F-9D5A-66ED-F530EF418CFD</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="59788CDF-6970-22A0-8864-D35582E6F248">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>LINEAS_PA</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>92DEB5C1-193C-5E3B-B64E-9D1EE57FB01C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 BYTE</dataTypeSize>
+<ownDataTypeParameters>45 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PROGRAMA_ACADEMICO" id="C0E3BA3A-50CA-3884-5C63-168F1BD30C54">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>LINEAS_PA</sourceObjSchema>
+<sourceObjName>ID_PROGRAMA_ACADEMICO</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>0200BCB5-0952-623E-0887-D2E6F9DF767C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="509C0D75-68B6-9A0D-3A77-74DAC75B4B9D" referredColumn="C2FA18D3-C9F9-F5DD-0CAB-40ADDA1F2BED"/>
+</associations>
+</Column>
+<Column name="ESTADO" id="50B234D4-3672-0220-D022-9625FDBF13F3">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>569A1A6F-FC6E-AAD9-A2D7-D94B225673B2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0C7C288A-883A-1B07-EDF2-2B3BC0EA4AEF" name="LINEAS_PA_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>LINEAS_PA_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>B9CE1F80-4888-86C1-61BC-73655F7BD0A1</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6AFB32B-6727-C264-07D4-BFE4F8E8D3DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69DCBB72-DD9A-B99D-7D9F-32C0BF966857" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="LINEAS_PA_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>LINEAS_PA_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>6EC08D4D-44ED-D300-9F1A-74986EC1C11E</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6AFB32B-6727-C264-07D4-BFE4F8E8D3DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81287461-A264-DCB3-F97F-C5A31DC24206" name="LINEAS_PA_CARGA_ACADEMICA_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0E3BA3A-50CA-3884-5C63-168F1BD30C54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

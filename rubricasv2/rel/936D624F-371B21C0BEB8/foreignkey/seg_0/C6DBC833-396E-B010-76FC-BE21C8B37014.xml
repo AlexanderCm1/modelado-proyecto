@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C6DBC833-396E-B010-76FC-BE21C8B37014" containerWithKeyObject="84151610-43E1-D855-56DF-41B70C27EC77" localFKIndex="686669ED-A8F7-B0D4-A7F7-346CB8A3BBC2" name="PERSONA_TIPO_DOC_FK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>PERSONA_TIPO_DOC_FK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>BD04F9DA-3DEB-35D4-24C6-5FF58AE54314</importedID>
+<referredTableLongName>SGRU.TIPO_DOC</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8E75E14E-8F5C-5D44-DBFD-145F8C787DDB</referredTableID>
+<keyObject>F8100FA6-3D45-4F42-3C1C-BEF71A922713</keyObject>
+<referredKeyID>F8100FA6-3D45-4F42-3C1C-BEF71A922713</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_TIPO_DOC</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

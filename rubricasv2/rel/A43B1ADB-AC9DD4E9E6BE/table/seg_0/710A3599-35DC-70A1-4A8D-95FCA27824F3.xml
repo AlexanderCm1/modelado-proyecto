@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="710A3599-35DC-70A1-4A8D-95FCA27824F3" name="CONFIG_PY">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>A4971141-7600-CE6C-B1FB-BA26BCBEAB2D</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Semestre_ID_SEMESTRE" id="64B655D5-7B37-5624-67E3-712163CA57DE">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>98159E29-FE9A-2FD4-1E39-FD384E4054AE</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="561FECC1-70E8-57CE-2594-B027F3301F71" referredColumn="D21A7F5D-848B-5165-D989-D13DBA3ABD1E"/>
+</associations>
+</Column>
+<Column name="SISTEMA_NUMERICO_ID" id="7D349B55-E34A-D6E8-8D8F-04028E796E74">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>920621AB-5CD4-95E1-19B3-FE6F26774E61</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6946DF4B-D10F-A90F-C31E-568B19BF9EBE" referredColumn="6B74F3E6-851B-6528-9D20-5D8626015D22"/>
+</associations>
+</Column>
+<Column name="CONFIG_PY_ID" id="5625FE6D-110A-AB17-21A4-DDF1685139C1">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D4F5C9F-5E87-4E3F-7FB5-2A81FB7CE121" name="CONFIG_PY_PK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="5625FE6D-110A-AB17-21A4-DDF1685139C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="431DA3B5-2B71-7CD3-F6C0-DAD1FC6AADCF" name="CONFIG_PY_SISTEMA_NUMERICO_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>C5D0D118-5948-B44B-898D-19835C020DE6</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D349B55-E34A-D6E8-8D8F-04028E796E74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50618D9D-0058-D356-B946-4DE57F65B8D8" name="CONFIG_PY_Semestre_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>4E4D546C-68D5-45B1-FD51-31E76A52EA6B</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64B655D5-7B37-5624-67E3-712163CA57DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

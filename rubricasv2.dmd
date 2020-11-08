@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="rubricasv2" id="85046E14-B935-0CD0-57B9-FC8DEA65857C" version="3.5">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:42:55 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>85046E14-B935-0CD0-57B9-FC8DEA65857C</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="4E8CD753-C66C-0119-6831-28C5AD97AC9A">
+<designStoragePath>C:\Users\Me\Desktop\RUBV2\MODELADOV2</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A4679A1-FECF-364D-5526-FD4AC34850F2" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="RUBRICAS">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>RUBRICAS</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>018AEDC8-8922-2819-56F0-39C8BD98955B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_RUBRICA" id="1D08FABC-4CBC-96B2-2796-3BEB62721879">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>RUBRICAS</sourceObjSchema>
+<sourceObjName>ID_RUBRICA</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>51662B3C-E6C8-AB22-234D-CAB70FA30066</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CRITERIO" id="BDAD94CA-A670-AA3F-749C-C8F65993933B">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>RUBRICAS</sourceObjSchema>
+<sourceObjName>CRITERIO</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>76D03CB8-9B70-960A-C803-DB503EA3933C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 BYTE</dataTypeSize>
+<ownDataTypeParameters>45 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PORCENTAJE" id="F9620DE2-012A-854F-0C07-D4D07F933D5D">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>RUBRICAS</sourceObjSchema>
+<sourceObjName>PORCENTAJE</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>F9416D66-9BB1-FD2A-F7BD-483CBC85B345</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="6E365A30-7AB4-FD8E-7251-C03E43DEF329">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>762CBD83-A3AA-B9C4-9109-DF675C011699</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4BC069C8-5565-92B3-8D76-63340506D4D6" name="RUBRICAS_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>RUBRICAS_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>1F3EEB35-AED4-41A8-735C-DF77C86972B8</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D08FABC-4CBC-96B2-2796-3BEB62721879"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96BC81D1-B37B-2CE3-EA03-C441B0B3B49C" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="RUBRICAS_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>RUBRICAS_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>99A23547-B44D-F0F6-8281-44B27EB657E2</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D08FABC-4CBC-96B2-2796-3BEB62721879"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

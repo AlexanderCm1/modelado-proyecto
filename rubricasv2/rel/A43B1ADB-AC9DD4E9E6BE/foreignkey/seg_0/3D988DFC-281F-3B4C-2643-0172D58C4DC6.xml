@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3D988DFC-281F-3B4C-2643-0172D58C4DC6" containerWithKeyObject="E3F6485B-DC3F-664C-3050-451CEE4C087C" localFKIndex="5057AC0B-CA8E-F034-63FA-768394F572EA" name="DETALLE_FINAL_PY_PLAN_CURSOS_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>DAFF799A-49CA-82D8-E6EA-95A51033C3AA</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<referredTableLongName>PLAN_CURSOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>755B3F2F-586D-7A03-F83C-EBF823D22F4E</referredTableID>
+<keyObject>B4AE39D7-5A98-37D0-8ABC-29745767E14F</keyObject>
+<referredKeyID>B4AE39D7-5A98-37D0-8ABC-29745767E14F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_PLAN_CURSOS</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

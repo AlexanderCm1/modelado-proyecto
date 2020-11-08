@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5816EED7-F83D-DD3C-A3E9-F035FF13F80E" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="CARGA_ACADEMICA">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>CARGA_ACADEMICA</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[Es la tabla de enlace entre un docente con un curso perteneciente a un plan y ciclo]]></commentInRDBMS>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>09CB6D8B-017A-1961-47C3-D9841519AA8A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PROGRAMA_ACADEMICO" id="C2FA18D3-C9F9-F5DD-0CAB-40ADDA1F2BED">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>CARGA_ACADEMICA</sourceObjSchema>
+<sourceObjName>ID_PROGRAMA_ACADEMICO</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>7C19B16E-86E7-CA80-185B-3B30D579AEBD</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_DOCENTE" id="EF7FFD2B-617E-3783-031D-6B87664B8135">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>CARGA_ACADEMICA</sourceObjSchema>
+<sourceObjName>CODIGO_DOCENTE</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>8C36460C-6175-F249-AC04-989183F8C131</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PLAN_CICLO_CURSO" id="CE51CC97-8DCE-89A5-935F-1E61B84AD2D6">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>CARGA_ACADEMICA</sourceObjSchema>
+<sourceObjName>ID_PLAN_CICLO_CURSO</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>2347D603-AF16-EDFB-A63E-BECDAD825829</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E5D7D0E-30F9-3787-5DA8-4D54A92EC4DB" referredColumn="476180D6-8715-2AB7-FBA0-1F7483B88A1B"/>
+</associations>
+</Column>
+<Column name="DOCENTE_ID_PERSONA" id="22391FC5-EE6A-07F1-5CDE-976420A8EF5D">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>8BBF096F-3711-B79C-353D-4BE11C38D2EE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8DEFB3F3-E9C1-9B05-2ABD-17A3DD461DCD" referredColumn="20526A41-9188-B5BE-1F1B-E6779FE878B8"/>
+</associations>
+</Column>
+<Column name="ESTADO" id="63CD01AE-AE9A-D95F-3481-5E5BAC3C304A">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>437A1BBE-1AD5-7B73-8835-86AFDC34F289</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B0D11E8-36D4-2E53-D643-89153E3EF098" name="CARGA_ACADEMICA_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>CARGA_ACADEMICA_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>9B8810A2-7BB3-4A36-11FE-6C51179AB3BC</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2FA18D3-C9F9-F5DD-0CAB-40ADDA1F2BED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CAD4E519-AEC0-E16F-C792-8BFCAD2773FA" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="CARGA_ACADEMICA_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>CARGA_ACADEMICA_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>14CD7F61-AF93-CD90-747F-DA361442798B</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2FA18D3-C9F9-F5DD-0CAB-40ADDA1F2BED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36E4416C-2A42-8408-BBC2-52E0750F3A30" name="CARGA_ACADEMICA_PLAN_CICLO_CURSO_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE51CC97-8DCE-89A5-935F-1E61B84AD2D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="203009D2-30BD-9F15-1946-5E49D270E8D4" name="CARGA_ACADEMICA_DOCENTE_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22391FC5-EE6A-07F1-5CDE-976420A8EF5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

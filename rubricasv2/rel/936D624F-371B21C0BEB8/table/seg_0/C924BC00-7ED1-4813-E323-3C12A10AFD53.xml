@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C924BC00-7ED1-4813-E323-3C12A10AFD53" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="EVALUADOR_EXTERNO">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>EVALUADOR_EXTERNO</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>4D05A4C1-C560-77A5-4F5B-41CEBCE46CCE</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PERSONA" id="E50511D9-F53C-396E-2BB1-11DE07DF8FDE">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>EVALUADOR_EXTERNO</sourceObjSchema>
+<sourceObjName>ID_PERSONA</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>1B843BB5-EF86-7ACF-8E58-8CDFEE87F680</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C13BB0E-0FC5-AEA8-2097-EF43DC850B6B" referredColumn="7C15B022-4573-1719-9D4B-CA1ACF579C08"/>
+</associations>
+</Column>
+<Column name="ESPECIALIDAD" id="0660EF99-E954-EC21-A920-4B55F6CCE22E">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>EVALUADOR_EXTERNO</sourceObjSchema>
+<sourceObjName>ESPECIALIDAD</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>9B8EECEE-E814-B8BF-0096-AF41B0B5DD30</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 BYTE</dataTypeSize>
+<ownDataTypeParameters>45 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="38274AE2-375B-EE0A-F646-A04A85DBEB8D">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>0EEDD749-EB9F-168C-3E79-4DE916FF67AC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="215F4C96-9622-5567-2E9C-339987F6BE60" name="EVALUADOR_EXTERNO_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>EVALUADOR_EXTERNO_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>17CB87D0-2141-27F3-23DC-50F192B8C8D2</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E50511D9-F53C-396E-2BB1-11DE07DF8FDE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F685F5B8-71D8-AEA8-BB13-4BB0D9D6DEF2" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="EVALUADOR_EXTERNO__IDX">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>EVALUADOR_EXTERNO__IDX</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>805E22A7-437E-B795-F1ED-3DCCC8EC316C</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E50511D9-F53C-396E-2BB1-11DE07DF8FDE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F90F1D4-9EA6-10FA-A014-F017F41DA1EF" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="EVALUADOR_EXTERNO_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>EVALUADOR_EXTERNO_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>3349CAFE-9A24-796A-1F99-DC5ADEAE7AAB</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="8E9216AA-DBE5-C1AD-5B5F-458553362C6A" name="EVALUADOR_EXTERNO_PERSONA_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E50511D9-F53C-396E-2BB1-11DE07DF8FDE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

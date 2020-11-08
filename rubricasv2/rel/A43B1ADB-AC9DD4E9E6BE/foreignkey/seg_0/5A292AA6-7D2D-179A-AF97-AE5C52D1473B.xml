@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5A292AA6-7D2D-179A-AF97-AE5C52D1473B" containerWithKeyObject="6D04861D-B218-B461-BD04-C1C1C96B317E" localFKIndex="CBB38A02-F57C-A414-3B17-DED2069F3CC6" name="C0NF_EVALUACION_CONFIG_PY_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>BAA14560-CB07-EEA9-E942-51164CC24F85</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<referredTableLongName>CONFIG_PY</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>710A3599-35DC-70A1-4A8D-95FCA27824F3</referredTableID>
+<keyObject>2D4F5C9F-5E87-4E3F-7FB5-2A81FB7CE121</keyObject>
+<referredKeyID>2D4F5C9F-5E87-4E3F-7FB5-2A81FB7CE121</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CONFIG_PY_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

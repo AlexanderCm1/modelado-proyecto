@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="98DC8481-2F63-BDC4-6D83-75410A731A09" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="DOCENTE">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>DOCENTE</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>6A5F6DC3-8AA7-E1C1-D49A-A05CFE7095D8</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PERSONA" id="20526A41-9188-B5BE-1F1B-E6779FE878B8">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>DOCENTE</sourceObjSchema>
+<sourceObjName>ID_PERSONA</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>47C349EF-FDB3-1E2F-57EB-59A8771FE311</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D836FF52-2D5B-D962-6936-A4EC440E6C6C" referredColumn="7C15B022-4573-1719-9D4B-CA1ACF579C08"/>
+</associations>
+</Column>
+<Column name="CODIGO_DOCENTE" id="B67AA9B0-C327-D9C7-B418-334D5628A179">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>DOCENTE</sourceObjSchema>
+<sourceObjName>CODIGO_DOCENTE</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>A1559AD1-C22E-3030-BFB1-D81A5F5B5234</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="5738770D-676E-0733-E03D-01D19DD61F87">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>0A21EFDC-CDE3-7CEF-887B-843616D88F4C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6EF4923A-BC04-FA9B-6CF0-7320E24EFCAE" name="DOCENTE_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>DOCENTE_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>A561CA37-D27D-3371-EE80-37E6D037084E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20526A41-9188-B5BE-1F1B-E6779FE878B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C24AEA84-15A6-F1AE-2A22-AAF4FB82110E" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="DOCENTE__IDX">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>DOCENTE__IDX</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>2763AE25-692A-8D50-4FD5-183DDE59DBFE</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20526A41-9188-B5BE-1F1B-E6779FE878B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C712081D-3B66-5E4A-4984-38789AF96DA7" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="DOCENTE_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>DOCENTE_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>71BB1B2B-B98E-79DE-D896-5DC9A5F5D88B</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B67AA9B0-C327-D9C7-B418-334D5628A179"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA0BD8EA-C03A-8EA9-044B-9566C745A614" name="DOCENTE_PERSONA_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20526A41-9188-B5BE-1F1B-E6779FE878B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

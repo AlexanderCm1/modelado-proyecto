@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3CF60DD9-79B2-749C-12F9-3CE5019C21BD" name="AVANCE_PY">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>7B8F9C81-A89C-491A-AC59-5950932B9A76</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_AVANCE_PY" id="534FAB5E-66B2-7B66-E90A-F853A0CACCD0">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>D460529E-3413-4088-58EE-46B77882AA2B</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CRONOGRAMA_ID_CRONOGRAMA" id="45E4872C-BD70-3BB4-0E61-F5CAB2D0DDF8">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>E1A160BE-40AD-2CB4-0917-FF5A916F4ED2</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="072180B3-A76A-9536-406C-AD399A445E85" referredColumn="AFFEAB7F-470D-E2DE-88B3-18E078D37FAD"/>
+</associations>
+</Column>
+<Column name="PROYECTO_INTEGRADOR_ID_PROYECTO" id="D60B9568-34BA-3678-1B4C-7A43165FF69F">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>8D056980-CF05-6D2B-B3E8-D43E805DAA51</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="51F27108-09A0-39A8-C11F-7366CA8DCE00" referredColumn="39B8137B-5353-2850-6E4F-C287782647F7"/>
+</associations>
+</Column>
+<Column name="ESTADO" id="C29FB6EF-CBBA-6D54-916A-79AC40F9A356">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>D8802133-406E-2512-E3A1-ADCC969A4459</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5D660544-0EAE-29CC-B9C1-6B749373F8B7" name="AVANCE_PY_PK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>EE299655-5931-E6DA-3BBD-C260C054633A</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="534FAB5E-66B2-7B66-E90A-F853A0CACCD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5894EF5E-FC8E-C492-917F-FB0D52F726BD" name="AVANCE_PY_CRONOGRAMA_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>E8C7208D-BAFD-3D8F-047F-FB75E9DA5856</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45E4872C-BD70-3BB4-0E61-F5CAB2D0DDF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78BB9382-850B-BBC0-89DB-9D0C1B0B8838" name="AVANCE_PY_PROYECTO_INTEGRADOR_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>CFA76780-8772-7A1D-3A3D-B635A8869F59</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D60B9568-34BA-3678-1B4C-7A43165FF69F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0ECA67FA-F277-D586-5B84-29293B081E43" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="LOGRO_RUBRICA">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>LOGRO_RUBRICA</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>CD384F88-708F-6CD5-97C8-81247FC8AE4B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_LOGRO_RUBRICA" id="DDC9BCEE-B6A7-E8FB-DA2F-D34FBA4CAB36">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>LOGRO_RUBRICA</sourceObjSchema>
+<sourceObjName>ID_LOGRO_RUBRICA</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>C38CE685-BE93-093F-9D9B-455926771303</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="9C1EA9A7-D47A-0F19-97D2-BEF1426B709A">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>LOGRO_RUBRICA</sourceObjSchema>
+<sourceObjName>DESCRIPCION</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>002F8949-FCE2-C4F9-4102-F0AE8776B9DA</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_NIVEL_LOGRO" id="18050C9B-82A5-DB7D-2FB8-6FAAB445F22B">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>LOGRO_RUBRICA</sourceObjSchema>
+<sourceObjName>ID_NIVEL_LOGRO</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>04C35603-B9A4-CF81-1542-BBA20DA91C3E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2864BF05-09FF-AE8D-CEB0-BBDED158239F" referredColumn="56EF895B-F37E-B1C5-09A7-3BB97B0A16DD"/>
+</associations>
+</Column>
+<Column name="ID_RUBRICA" id="FACD557E-1449-7760-6091-81EE53635E56">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>LOGRO_RUBRICA</sourceObjSchema>
+<sourceObjName>ID_RUBRICA</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>59AB8951-C9D8-C574-CF1C-985CE231D21E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="222B833C-9C23-8FCE-797B-94432D570A23" referredColumn="1D08FABC-4CBC-96B2-2796-3BEB62721879"/>
+</associations>
+</Column>
+<Column name="PORCENTAJE" id="C59C500E-6CBF-D711-F486-8075E4AF2703">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>LOGRO_RUBRICA</sourceObjSchema>
+<sourceObjName>PORCENTAJE</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>1F22F895-44C6-A992-7290-4E479636F8DF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="E559A2BD-6EEC-CA38-4794-CA82D2F69F54">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>9B2E9049-757D-23F9-77DD-1235C0F473FB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="64BC0410-60DA-8B27-1392-19DF1F95D008" name="LOGRO_RUBRICA_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>LOGRO_RUBRICA_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>C521CC41-9D4C-27BD-1FCD-451ED996453C</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDC9BCEE-B6A7-E8FB-DA2F-D34FBA4CAB36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66EF20AB-CF2D-E554-800C-EF0077583AA3" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="LOGRO_RUBRICA_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>LOGRO_RUBRICA_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>DDE4F437-7C41-5286-7A2F-6B06484A985F</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDC9BCEE-B6A7-E8FB-DA2F-D34FBA4CAB36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92B80EE0-3B33-2159-C3F4-8B5AEC4178C6" name="LOGRO_RUBRICA_RUBRICAS_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FACD557E-1449-7760-6091-81EE53635E56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D3DC9B7-2102-7C40-A083-10462284612B" name="LOGRO_RUBRICA_NIVEL_LOGRO_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18050C9B-82A5-DB7D-2FB8-6FAAB445F22B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

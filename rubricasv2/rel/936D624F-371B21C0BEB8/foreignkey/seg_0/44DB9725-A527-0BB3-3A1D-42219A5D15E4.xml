@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="44DB9725-A527-0BB3-3A1D-42219A5D15E4" containerWithKeyObject="B40AB211-4386-D091-1B02-95E321F51584" localFKIndex="6692966D-15F9-9E7B-DE13-C9B5B3CC7F95" name="PLAN_CICLO_CURSO_PLAN_FK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>PLAN_CICLO_CURSO_PLAN_FK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>AD713DA0-46A0-7366-AB32-8EDB7F4EA575</importedID>
+<referredTableLongName>SGRU.PLAN</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4DC4189C-D840-2D19-63C9-440F573DDAFC</referredTableID>
+<keyObject>8701C014-09A1-F583-A4B3-99B1E752F534</keyObject>
+<referredKeyID>8701C014-09A1-F583-A4B3-99B1E752F534</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_PLAN</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

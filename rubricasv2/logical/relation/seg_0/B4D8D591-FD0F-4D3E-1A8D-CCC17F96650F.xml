@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CARGA_ACADEMICA_DOCENTE_FK" directorySegmentName="seg_0" id="B4D8D591-FD0F-4D3E-1A8D-CCC17F96650F">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>DA646A09-981C-D329-37F4-50F4C2C23F0B</importedID>
+<engineerTo>
+<item key="936D624F-3E2B-63FF-92E4-371B21C0BEB8" value="true"/>
+<item key="A43B1ADB-FC1E-76BB-4908-AC9DD4E9E6BE" value="true"/>
+</engineerTo>
+<sourcePk>6444E42E-2E71-5E41-BFFE-A39E06118EBF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FA2163A9-987D-0FBD-C13E-A657FE475CF3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7DB7E2D6-3146-3104-EEA1-261B294BD51A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

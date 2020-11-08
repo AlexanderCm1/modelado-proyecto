@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0A38883A-6D7B-F7B6-636A-057406880888" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="TIPO_UNIDAD_ACADEMICA">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>TIPO_UNIDAD_ACADEMICA</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>3F2DB818-DF63-8600-9198-2F2BD71FBCCE</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TIPO_UNIDAD" id="DF680C8E-7F4B-9FA6-D080-E159C5D59092">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>TIPO_UNIDAD_ACADEMICA</sourceObjSchema>
+<sourceObjName>ID_TIPO_UNIDAD</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>E220C431-9865-B42F-F693-2F3A11B6C9FA</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="1F4AEA4D-586F-CBA0-287E-1DF82E6FBF14">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>TIPO_UNIDAD_ACADEMICA</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>0791BB99-902F-C151-862B-4B925334B35C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 BYTE</dataTypeSize>
+<ownDataTypeParameters>45 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="5EAB6122-FE12-A777-F9F9-77BDD1B4FA93">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>95BFF475-19BC-9E22-2447-6F6FFF7621DC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A872E0EE-DF7B-1D53-3F29-7F0597100ED6" name="TIPO_UNIDAD_ACADEMICA_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>TIPO_UNIDAD_ACADEMICA_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>64A53D7A-C551-FF03-830D-06C74BB4EC14</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF680C8E-7F4B-9FA6-D080-E159C5D59092"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD822FA7-AD8E-1210-BFB9-0F46CE19DCD5" schemaObject="E4800BAF-6A8A-E017-0546-1BF5224D8744" name="TIPO_UNIDAD_ACADEMICA_PK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>TIPO_UNIDAD_ACADEMICA_PK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>67E6EBC2-389C-1A19-5C08-D3349BEDCFDC</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF680C8E-7F4B-9FA6-D080-E159C5D59092"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

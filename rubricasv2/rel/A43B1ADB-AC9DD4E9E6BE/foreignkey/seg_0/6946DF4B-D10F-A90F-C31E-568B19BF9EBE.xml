@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6946DF4B-D10F-A90F-C31E-568B19BF9EBE" containerWithKeyObject="710A3599-35DC-70A1-4A8D-95FCA27824F3" localFKIndex="431DA3B5-2B71-7CD3-F6C0-DAD1FC6AADCF" name="CONFIG_PY_SISTEMA_NUMERICO_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>C5D0D118-5948-B44B-898D-19835C020DE6</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<referredTableLongName>SISTEMA_NUMERICO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E5610EFF-6612-4458-7BD6-FAF406415648</referredTableID>
+<keyObject>189EFA65-81FE-9271-66DB-EF95F8D72ACE</keyObject>
+<referredKeyID>189EFA65-81FE-9271-66DB-EF95F8D72ACE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

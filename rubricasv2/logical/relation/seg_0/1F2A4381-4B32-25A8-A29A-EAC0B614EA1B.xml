@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="LOGRO_COMPETENCIAS_COMPETENCIAS_FK" directorySegmentName="seg_0" id="1F2A4381-4B32-25A8-A29A-EAC0B614EA1B">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>EE6A08A8-54D5-A2CB-C652-9E3418D5C5EF</importedID>
+<engineerTo>
+<item key="936D624F-3E2B-63FF-92E4-371B21C0BEB8" value="true"/>
+<item key="A43B1ADB-FC1E-76BB-4908-AC9DD4E9E6BE" value="true"/>
+</engineerTo>
+<sourcePk>43C5609F-C8C7-A002-8829-606EEE787782</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5D4E3E2F-DCE8-2182-479D-CC41045AD595</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>491AF78F-5F58-53C8-E225-F9D8EE40AC01</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

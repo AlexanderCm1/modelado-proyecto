@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9E9280DF-BC60-99CA-6A72-385E97A5A53C" containerWithKeyObject="810C4862-3524-3F90-6FDC-EAAC98CE94A1" localFKIndex="2AAAFFE8-CC06-D90F-B310-6F2ED2366722" name="RESULTADOS_C0NF_EVALUACION_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>D0060C46-447E-8B8E-BD58-1EBEB0C2995D</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<referredTableLongName>C0NF_EVALUACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6D04861D-B218-B461-BD04-C1C1C96B317E</referredTableID>
+<keyObject>73D0350A-D3AD-48DD-7AD2-6A973B14B9B6</keyObject>
+<referredKeyID>73D0350A-D3AD-48DD-7AD2-6A973B14B9B6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>C0NF_EVALUACION_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

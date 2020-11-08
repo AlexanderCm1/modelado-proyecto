@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1709CA07-6C3A-0EE8-92ED-7D065F47E2C4" name="LINEA_PLAN">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>2360DA50-D536-A10D-CF9A-7070F03D6AEC</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LINEAS_PA_ID_LINEA_PA" id="A6CE5B79-AA4E-5E5D-B2B7-A505B2A19D3B">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>D137672A-1639-8FD8-22DD-9823D23768D4</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="15573308-2CDD-7CE4-5BE3-0EE526E76705" referredColumn="E88E90E0-69D1-2E83-DC95-3B418916E47E"/>
+</associations>
+</Column>
+<Column name="PLAN_ID_PLAN" id="D32F2E5A-F520-BAD2-3301-7FE27C7D841B">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>2DE33892-CE67-E07C-9411-BA167AE1E3E4</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7CBEF329-4898-164B-3BC0-C2012B56746F" referredColumn="49EDAC4B-F283-F9CE-6932-D85517FC52DD"/>
+</associations>
+</Column>
+<Column name="ID" id="43DF5BEA-851C-D0F8-3174-99604FA59C31">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>411557D8-9AF4-9942-4711-B2B9F1485313</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="362ADC18-286E-3DCA-7252-EE7ED05BA13A" name="LINEA_PLAN_PK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>C90ED4B3-E24F-99B0-741E-75480DBF1265</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43DF5BEA-851C-D0F8-3174-99604FA59C31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A487A8F-F743-3320-E529-223A7C137EB1" name="LINEA_PLAN_LINEAS_PA_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>C5FE08D3-38CB-85AD-4DC1-3EC9211BDC55</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6CE5B79-AA4E-5E5D-B2B7-A505B2A19D3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5725D26-90E5-948A-21CA-8D32DF28C2A6" name="LINEA_PLAN_PLAN_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>D4C5BBFA-C98A-D845-F724-F88294EE40D9</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D32F2E5A-F520-BAD2-3301-7FE27C7D841B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

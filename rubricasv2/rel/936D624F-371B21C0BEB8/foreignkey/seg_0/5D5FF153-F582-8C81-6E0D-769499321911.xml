@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5D5FF153-F582-8C81-6E0D-769499321911" containerWithKeyObject="C65176F6-8161-A6F6-98D0-10174D3866C3" localFKIndex="08500DFA-2703-3B7B-3D21-3104EF6E956C" name="AVANCE_PY_CRONOGRAMA_FK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>AVANCE_PY_CRONOGRAMA_FK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>23E6E318-2FB8-DBC9-07B9-7AB5D4A78B94</importedID>
+<referredTableLongName>SGRU.CRONOGRAMA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E26C92A8-60BA-04A4-7F85-9D43274130EE</referredTableID>
+<keyObject>BDCBF212-ED4F-FA82-828E-96087DD4AFE3</keyObject>
+<referredKeyID>BDCBF212-ED4F-FA82-828E-96087DD4AFE3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_CRONOGRAMA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

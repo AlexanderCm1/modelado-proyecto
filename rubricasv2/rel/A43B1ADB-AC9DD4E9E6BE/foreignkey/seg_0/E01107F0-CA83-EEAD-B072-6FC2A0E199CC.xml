@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E01107F0-CA83-EEAD-B072-6FC2A0E199CC" containerWithKeyObject="F29D21DE-D181-4087-5936-2D4AA50EBB8F" localFKIndex="9C6C8BE8-F104-8F30-F05B-653E78DBFF60" name="EVALUACION_RUBRICAS_FK">
+<createdBy>Me</createdBy>
+<createdTime>2020-11-06 23:14:47 UTC</createdTime>
+<generatorID>CF2E3DA4-AF79-946B-9972-281067D4BCEE</generatorID>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<referredTableLongName>RUBRICAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>09365C91-4FD3-A97E-9069-230EB640F8E7</referredTableID>
+<keyObject>A2C7B09E-9C2D-F14F-647A-9501ADCE99B2</keyObject>
+<referredKeyID>A2C7B09E-9C2D-F14F-647A-9501ADCE99B2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_RUBRICA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

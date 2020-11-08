@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4BC2379C-972A-DF7D-64FD-CC1529C49DA5" containerWithKeyObject="F36003A3-B059-029A-5C52-83558E67803B" localFKIndex="732DB6C0-C39F-6EB8-B67B-8D6F54DE47BB" name="RESULTADOS_NOTAS_FK">
+<sourceConnName>SGRU</sourceConnName>
+<sourceObjSchema>SGRU</sourceObjSchema>
+<sourceObjName>RESULTADOS_NOTAS_FK</sourceObjName>
+<createdBy>Me</createdBy>
+<createdTime>2020-11-05 22:43:37 UTC</createdTime>
+<ownerDesignName>rubricasv2</ownerDesignName>
+<importedID>04AE630B-2BD8-BA81-4F8C-1CC773947848</importedID>
+<referredTableLongName>SGRU.NOTAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5208A354-4121-714B-DBE0-263CCB232A77</referredTableID>
+<keyObject>ABB64EAD-906F-6009-620C-377A1AA7425E</keyObject>
+<referredKeyID>ABB64EAD-906F-6009-620C-377A1AA7425E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_NOTAS</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
